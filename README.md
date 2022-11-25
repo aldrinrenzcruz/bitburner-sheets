@@ -1,2 +1,2 @@
 # bitlearner
- Some cheatsheets
+ Some cheatsheets for the game Bitburner

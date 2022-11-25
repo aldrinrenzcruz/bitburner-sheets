@@ -24,54 +24,7 @@
   <div id="table-1-data"></div>
 
   <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script>
-    const allQuickLinks = {
-      'list': [
-        {
-          'name': 'HR Teamware',
-          'title': 'HR Teamware',
-          'favicon': '',
-          'url': 'https://secure.hrteamware.com/login/index.htm',
-          'tags': 'Login, Logout, Log-in, Log in, Log-out Log out',
-          'attributes': 'rel="noopener noreferrer" target="_blank"',
-          'onclick': '',
-          'header': '',
-          'eclass': '',
-          'access': '',
-        },
-        {
-          'name': 'NRS Table',
-          'title': 'NRS Table of Titles and Chapters (for Added)',
-          'favicon': '',
-          'url': 'https://www.leg.state.nv.us/NRS/',
-          'tags': 'NV Clipsheets, Clip sheets, Nevada, User Guides, NRS Table, NRS Table of Titles and Chapters (for Added)',
-          'attributes': 'rel="noopener noreferrer" target="_blank"',
-          'onclick': '',
-          'header': '',
-          'eclass': '',
-          'access': '',
-        },
-      ]
-    };
-    const allQuickLinksTemplate = ({
-      header,
-      name,
-      title,
-      favicon,
-      url,
-      tags,
-      attributes,
-      onclick,
-      eclass,
-      access,
-    }) => `${header}
-    <div class="card link-container link-filterable ${access}">
-      <img class="link-img" src="${favicon}" />
-      <a class="link-title stretched-link ${eclass}" href="${url}" ${attributes} onclick="simulateClickonMenuCloseBtn(); ${onclick}" title="${title}">${name} <span class="h-0">${tags}, ${title}, ${url}</span></a>
-    </div>`;
-    const generateAllQuickLinks = allQuickLinks.list.map(allQuickLinksTemplate);
-    document.getElementById("table-1-data").innerHTML = generateAllQuickLinks.join("")
-  </script>
+  <script src="assets/js/main.js"></script>
 
 </body>
 
