@@ -39,3 +39,18 @@ input[type="checkbox"]:focus {
 .augmentations-links a {
   color: #555 !important;
 }
+
+.accordion-button {
+  font-size: 13px;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, .125);
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+  background-color: transparent;
+  color: inherit;
+}

@@ -331,7 +331,7 @@ const factionListTemplate = ({
   work,
   description,
 }) => `
-<div class="card border-success rounded-0 mt-3 shadow">
+<div class="card rounded-0 mt-3 shadow">
   <div class="card-body">
   <p class="card-text float-end"><small class="text-muted">${type}</small></p>
     <h6 class="card-title fw-bold">${faction}</h6>
