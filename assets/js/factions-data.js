@@ -349,18 +349,6 @@ const allFactions = {
       'anchor-link': '',
     },
     {
-      'faction': 'The Covenant',
-      'type': 'Endgame Factions',
-      'requirements': '20 Augmentations, $75b, Hacking Level of 850, All Combat Stats of 850',
-      'augmentations': 'NeuroFlux Governor, Graphene Bone Lacings, SPTN-97 Gene Modification, Embedded Netburner Module_Core V3 Upgrade, Augmented Targeting III, Combat Rib III, Synfibril Muscle, Embedded Netburner Module_Analyze Engine, Synthetic Heart, NEMEAN Subdermal Weave, Embedded Netburner Module_Direct Memory Access Upgrade',
-      'prevents': 'N/A',
-      'work': 'Hacking Contracts, Field Work',
-      'description': 'Surrender yourself. Give up your empty individuality to become part of something great, something eternal. Become a slave. Submit your mind, body, and soul. Only then can you set yourself free. <br>Only then can you discover immortality.',
-      'checklistID': 'faction-30',
-      'cardID': '',
-      'anchor-link': '',
-    },
-    {
       'faction': 'Daedalus',
       'type': 'Endgame Factions',
       'requirements': '30 Augmentations, $100b, Hacking Level of 2500 OR All Combat Stats of 1500',
@@ -368,6 +356,18 @@ const allFactions = {
       'prevents': 'N/A',
       'work': 'Hacking Contracts, Field Work',
       'description': 'Yesterday we obeyed kings and bent our necks to emperors. Today we kneel only to truth.',
+      'checklistID': 'faction-30',
+      'cardID': '',
+      'anchor-link': '',
+    },
+    {
+      'faction': 'The Covenant',
+      'type': 'Endgame Factions',
+      'requirements': '20 Augmentations, $75b, Hacking Level of 850, All Combat Stats of 850',
+      'augmentations': 'NeuroFlux Governor, Graphene Bone Lacings, SPTN-97 Gene Modification, Embedded Netburner Module_Core V3 Upgrade, Augmented Targeting III, Combat Rib III, Synfibril Muscle, Embedded Netburner Module_Analyze Engine, Synthetic Heart, NEMEAN Subdermal Weave, Embedded Netburner Module_Direct Memory Access Upgrade',
+      'prevents': 'N/A',
+      'work': 'Hacking Contracts, Field Work',
+      'description': 'Surrender yourself. Give up your empty individuality to become part of something great, something eternal. Become a slave. Submit your mind, body, and soul. Only then can you set yourself free. <br>Only then can you discover immortality.',
       'checklistID': 'faction-31',
       'cardID': '',
       'anchor-link': '',
@@ -400,11 +400,11 @@ const factionListTemplate = ({
   <p class="card-text float-end"><small class="text-muted">${type}</small></p>
     <h6 class="card-title fw-bold">${faction}</h6>
     <p class="card-text"><small class="text-secondary">${description}</small></p>
-    <p class="card-text"><strong>Requirements: </strong><br>${requirements.replaceAll(', ', '<br>')}</p>
+    <p class="card-text"><strong>Requirements: </strong>${requirements}</p>
     <p class="card-text"><strong>Rivals: </strong>${prevents}</p>
     <p class="card-text"><strong>Work Available: </strong>${work}</p>
-    <p class="card-text"><strong>Augmentations Available: </strong></p>
-    <p class="card-text augmentations-links">${augmentations.replaceAll(', ', '<br>')}</p>
+    <p class="card-text"><strong>Augmentations Available: </strong><br><span class="card-text augmentations-links">${augmentations.replaceAll(', ', '<br>')}</span></p>
+   
   </div>
 </div>
 `;
