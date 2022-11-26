@@ -21,9 +21,9 @@ $("#faction-cards-filter").keyup(function () {
     let filter = $(this).val(), count = 0;
     $('#filterable-faction-card div').each(function () {
         if ($(this).text().search(new RegExp(filter, "i")) < 0) {
-            $(this).slideUp();
+            $(this).hide();
         } else {
-            $(this).slideDown();
+            $(this).show();
             count++;
         }
     });

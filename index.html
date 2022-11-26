@@ -35,7 +35,7 @@
             <section class="col-lg-3"></section>
 
             <section class="col-lg-6 col-sm-12 mb-3">
-                <input class="form-control mt-3 rounded-0" id="faction-cards-filter" placeholder="Filter cards..." type="text">
+                <input class="form-control mt-3 rounded-0" id="faction-cards-filter" placeholder="Search filter..." type="text">
                 <div id="filterable-faction-card">
                     <span id="all-factions-data"></span>
                 </div>
@@ -45,11 +45,32 @@
             </section>
 
             <section class="col-lg-3 my-3">
-                <div class="card border-0 no-highlight">
-                    <div class="card-header rounded-0 text-bg-dark">Faction Checklist
-                        <a class="float-end text-danger" onclick="clearFactionChecklist();"><small>Clear all</small></a>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne" type="button">
+                                Faction Checklist
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent=" #accordionExample">
+                            <div class="accordion-body p-0">
+                                <a class="float-end text-danger me-3" onclick="clearFactionChecklist();"><small>Clear all</small></a>
+                                <span id="all-factions-checklist"></span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-body p-0"><span id="all-factions-checklist"></span></div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" type="button">
+                                Augmentations Checklist
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                TODO
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 

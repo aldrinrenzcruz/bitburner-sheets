@@ -5,7 +5,7 @@ const allFactions = {
       'type': 'Early Game Faction',
       'requirements': 'Install a backdoor on the CSEC server',
       'augmentations': 'NeuroFlux Governor, Neurotrainer I, Synaptic Enhancement Implant, BitWire, Cranial Signal Processors - Gen I, Cranial Signal Processors - Gen II',
-      'prevents': 'Not applicable',
+      'prevents': 'N/A',
       'work': 'Hacking Contracts',
       'description': 'The Internet is the first thing that was built that we don\'t fully understand, the largest experiment in anarchy that we have ever had. And as the world becomes increasingly dominated by it, society approaches the brink of total chaos. We serve only to protect society, to protect humanity, to protect the world from imminent collapse.',
       'checklistID': 'faction-1',
@@ -17,7 +17,7 @@ const allFactions = {
       'type': 'Early Game Faction',
       'requirements': 'Hacking Level 80, Total Hacknet Levels of 100, Total Hacknet RAM of 8, Total Hacknet Cores of 4',
       'augmentations': 'NeuroFlux Governor, Hacknet Node NIC Architecture Neural-Upload, Hacknet Node Cache Architecture Neural-Upload, Hacknet Node CPU Architecture Neural-Upload, Hacknet Node Kernel Direct-Neural Interface, Hacknet Node Core Direct-Neural Interface',
-      'prevents': 'Not applicable',
+      'prevents': 'N/A',
       'work': 'Hacking Contracts',
       'description': '~~//*>H4CK||3T 8URN3R5**>?>\~~',
       'checklistID': 'faction-2',
@@ -29,7 +29,7 @@ const allFactions = {
       'type': 'Early Game Faction',
       'requirements': '$1m, Hacking Level 50, Be in Chongqing, New Tokyo, or Ishim',
       'augmentations': 'NeuroFlux Governor, Wired Reflexes, Speech Enhancement, ADR-V1 Pheromone Gene, Nuoptimal Nootropic Injector Implant, Social Negotiation Assistant (S.N.A), Speech Processor Implant, Nanofiber Weave, Neuroreceptor Management Implant',
-      'prevents': 'Not applicable',
+      'prevents': 'N/A',
       'work': 'Hacking Contracts, Security Work',
       'description': 'Obey Heaven and work righteously.',
       'checklistID': 'faction-3',
@@ -41,7 +41,7 @@ const allFactions = {
       'type': 'Early Game Faction',
       'requirements': 'Successfully infiltrate a company',
       'augmentations': 'SoA - phyzical WKS harmonizer, SoA - Might of Ares, SoA - Wisdom of Athena, SoA - Chaos of Dionysus, SoA - Beauty of Aphrodite, SoA - Trickery of Hermes, SoA - Flood of Poseidon, SoA - Hunt of Artemis, SoA - Knowledge of Apollo',
-      'prevents': 'Not applicable',
+      'prevents': 'N/A',
       'work': 'Shadows of Anarchy can only gain reputation by infiltrating.',
       'description': 'The government is ruled by the corporations that we have allowed to consume it. To release the world from its shackles, the gods grant us their strength.',
       'checklistID': 'faction-4',
@@ -53,7 +53,7 @@ const allFactions = {
       'type': 'Hacking Groups',
       'requirements': 'Install a backdoor on the avmnite-02h server',
       'augmentations': 'NeuroFlux Governor, DataJack, BitWire, Neurotrainer II, Cranial Signal Processors - Gen I, Artificial Synaptic Potentiation, Cranial Signal Processors - Gen II, CRTX42-AA Gene Modification, Neural-Retention Enhancement, Embedded Netburner Module, Cranial Signal Processors - Gen III',
-      'prevents': 'Not applicable',
+      'prevents': 'N/A',
       'work': 'Hacking Contracts',
       'description': 'ASCII Art',
       'checklistID': 'faction-5',
@@ -65,7 +65,7 @@ const allFactions = {
       'type': 'Hacking Groups',
       'requirements': 'Install a backdoor on the I.I.I.I server',
       'augmentations': 'NeuroFlux Governor, DataJack, The Black Hands, Cranial Signal Processors - Gen IV, Enhanced Myelin Sheathing, Embedded Netburner Module_Core Implant, Neuralstimulator, Artificial Synaptic Potentiation, Embedded Netburner Module, Cranial Signal Processors - Gen III',
-      'prevents': 'Not applicable',
+      'prevents': 'N/A',
       'work': 'Hacking Contracts, Field Work',
       'description': 'The world, so afraid of strong government, now has no government. Only power - Digital power. Financial power. Technological power. And those at the top rule with an invisible hand. They built a society where the rich get richer, and everyone else suffers. <br>So much pain. So many lives. Their darkness must end.',
       'checklistID': 'faction-6',
@@ -77,7 +77,7 @@ const allFactions = {
       'type': 'Hacking Groups',
       'requirements': 'Install a backdoor on the run4theh111z server',
       'augmentations': 'NeuroFlux Governor, DataJack, Cranial Signal Processors - Gen IV, Enhanced Myelin Sheathing, Neural Accelerator, Cranial Signal Processors - Gen V, Embedded Netburner Module_Core Implant, Artificial Bio-neural Network Implant, BitRunners Neurolink, Embedded Netburner Module_Core V2 Upgrade, Neurotrainer II, Embedded Netburner Module, Cranial Signal Processors - Gen III',
-      'prevents': 'Not applicable',
+      'prevents': 'N/A',
       'work': 'Hacking Contracts',
       'description': 'Our entire lives are controlled by bits. All of our actions, our thoughts, our personal information. It\'s all transformed into bits, stored in bits, communicated through bits. It’s impossible for any person to move, to live, to operate at any level without the use of bits. And when a person moves, lives, and operates, they leave behind their bits, mere traces of seemingly meaningless fragments of information. But these bits can be reconstructed. Transformed. Used. <br>Those who run the bits, run the world.',
       'checklistID': 'faction-7',
@@ -161,7 +161,7 @@ const allFactions = {
       'type': 'Megacorporations',
       'requirements': 'Have 400k reputation with the Corporation',
       'augmentations': '',
-      'prevents': 'Not applicable',
+      'prevents': 'N/A',
       'work': '',
       'description': '',
       'checklistID': 'faction-14',
@@ -173,7 +173,7 @@ const allFactions = {
       'type': 'Megacorporations',
       'requirements': 'Have 400k reputation with the Corporation',
       'augmentations': '',
-      'prevents': 'Not applicable',
+      'prevents': 'N/A',
       'work': '',
       'description': '',
       'checklistID': 'faction-15',
@@ -185,7 +185,7 @@ const allFactions = {
       'type': 'Megacorporations',
       'requirements': 'Have 400k reputation with the Corporation',
       'augmentations': '',
-      'prevents': 'Not applicable',
+      'prevents': 'N/A',
       'work': '',
       'description': '',
       'checklistID': 'faction-16',
@@ -197,7 +197,7 @@ const allFactions = {
       'type': 'Megacorporations',
       'requirements': 'Have 400k reputation with the Corporation',
       'augmentations': '',
-      'prevents': 'Not applicable',
+      'prevents': 'N/A',
       'work': '',
       'description': '',
       'checklistID': 'faction-17',
@@ -209,7 +209,7 @@ const allFactions = {
       'type': 'Megacorporations',
       'requirements': 'Have 400k reputation with the Corporation',
       'augmentations': '',
-      'prevents': 'Not applicable',
+      'prevents': 'N/A',
       'work': '',
       'description': '',
       'checklistID': 'faction-18',
@@ -221,7 +221,7 @@ const allFactions = {
       'type': 'Megacorporations',
       'requirements': 'Have 400k reputation with the Corporation',
       'augmentations': '',
-      'prevents': 'Not applicable',
+      'prevents': 'N/A',
       'work': '',
       'description': '',
       'checklistID': 'faction-19',
@@ -233,7 +233,7 @@ const allFactions = {
       'type': 'Megacorporations',
       'requirements': 'Have 400k reputation with the Corporation',
       'augmentations': '',
-      'prevents': 'Not applicable',
+      'prevents': 'N/A',
       'work': '',
       'description': '',
       'checklistID': 'faction-20',
@@ -245,7 +245,7 @@ const allFactions = {
       'type': 'Megacorporations',
       'requirements': 'Have 400k reputation with the Corporation',
       'augmentations': '',
-      'prevents': 'Not applicable',
+      'prevents': 'N/A',
       'work': '',
       'description': '',
       'checklistID': 'faction-21',
@@ -257,7 +257,7 @@ const allFactions = {
       'type': 'Megacorporations',
       'requirements': 'Have 400k reputation with the Corporation',
       'augmentations': '',
-      'prevents': 'Not applicable',
+      'prevents': 'N/A',
       'work': '',
       'description': '',
       'checklistID': 'faction-22',
@@ -269,7 +269,7 @@ const allFactions = {
       'type': 'Megacorporations',
       'requirements': 'Have 400k reputation with the Corporation, Install a backdoor on the fulcrumassets server',
       'augmentations': '',
-      'prevents': 'Not applicable',
+      'prevents': 'N/A',
       'work': '',
       'description': '',
       'checklistID': 'faction-23',
@@ -281,7 +281,7 @@ const allFactions = {
       'type': 'Criminal Organizations',
       'requirements': 'All Combat Stats of 30, -9 Karma, $1m',
       'augmentations': 'NeuroFlux Governor, LuminCloaking-V2 Skin Implant, SmartSonar Implant, Wired Reflexes, LuminCloaking-V1 Skin Implant, Augmented Targeting I, Combat Rib I',
-      'prevents': 'Not applicable',
+      'prevents': 'N/A',
       'work': 'Field Work, Security Work',
       'description': 'Slum Snakes rule!',
       'checklistID': 'faction-24',
@@ -293,7 +293,7 @@ const allFactions = {
       'type': 'Criminal Organizations',
       'requirements': 'Be in Chongqing, New Tokyo, or Ishima, All Combat Stats of 75, -18 Karma',
       'augmentations': 'NeuroFlux Governor, LuminCloaking-V2 Skin Implant, HemoRecirculator, Power Recirculation Core, Bionic Arms, LuminCloaking-V1 Skin Implant',
-      'prevents': 'Not applicable',
+      'prevents': 'N/A',
       'work': 'Field Work, Security Work',
       'description': 'Following the mandate of Heaven and carrying out the way.',
       'checklistID': 'faction-25',
@@ -305,7 +305,7 @@ const allFactions = {
       'type': 'Criminal Organizations',
       'requirements': 'CTO, CFO, or CEO of a company, $15m, -22 Karma',
       'augmentations': '',
-      'prevents': 'Not applicable',
+      'prevents': 'N/A',
       'work': '',
       'description': '',
       'checklistID': 'faction-26',
@@ -317,7 +317,7 @@ const allFactions = {
       'type': 'Criminal Organizations',
       'requirements': 'Hacking Level 100, All Combat Stats of 300, 30 People Killed, -45 Karma, Not working for CIA or NSA',
       'augmentations': 'NeuroFlux Governor, Graphene_BrachiBlades_Upgrade, Unstable Circadian Modulator, Synfibril Muscle, Synthetic Heart, Wired Reflexes, Speech Enhancement, Nanofiber Weave, The Shadow\'s Simulacrum, Bionic Spine, Bionic Legs',
-      'prevents': 'Not applicable',
+      'prevents': 'N/A',
       'work': 'Hacking Contracts, Field Work, Security Work',
       'description': 'It is better to reign in Hell than to serve in Heaven.',
       'checklistID': 'faction-27',
@@ -329,7 +329,7 @@ const allFactions = {
       'type': 'Criminal Organizations',
       'requirements': 'Hacking Level 300, All Combat Stats of 300, Be in Chongqing, 5 People Killed, -45 Karma, Not working for CIA or NSA',
       'augmentations': 'NeuroFlux Governor, Graphene_Bionic_Arms_Upgrade, Wired Reflexes, Augmented Targeting I, Combat Rib I, Augmented Targeting II, HemoRecirculator, Combat Rib II, Power Recirculation Core, Augmented Targeting III, Combat Rib III, Nanofiber Weave, The Shadow\'s Simulacrum',
-      'prevents': 'Not applicable',
+      'prevents': 'N/A',
       'work': 'Hacking Contracts, Field Work',
       'description': 'The World doesn\'t care about right or wrong. It only cares about power.',
       'checklistID': 'faction-28',
@@ -341,7 +341,7 @@ const allFactions = {
       'type': 'Criminal Organizations',
       'requirements': 'Hacking Level 200, All Combat Stats of 200, Be in Aevum or Sector-12, $10m, -90 Karma, Not working for CIA or NSA',
       'augmentations': 'NeuroFlux Governor, HemoRecirculator, BrachiBlades, Power Recirculation Core, Augmented Targeting III, Combat Rib III, The Shadow\'s Simulacrum, Bionic Spine, Bionic Legs, NEMEAN Subdermal Weave, Wired Reflexes, ADR-V1 Pheromone Gene, Augmented Targeting I, Combat Rib I, Augmented Targeting II, Combat Rib II, Nanofiber Weave',
-      'prevents': 'Not applicable',
+      'prevents': 'N/A',
       'work': 'Hacking Contracts, Field Work, Security Work',
       'description': 'Honor holds you back.',
       'checklistID': 'faction-29',
@@ -353,7 +353,7 @@ const allFactions = {
       'type': 'Endgame Factions',
       'requirements': '20 Augmentations, $75b, Hacking Level of 850, All Combat Stats of 850',
       'augmentations': 'NeuroFlux Governor, Graphene Bone Lacings, SPTN-97 Gene Modification, Embedded Netburner Module_Core V3 Upgrade, Augmented Targeting III, Combat Rib III, Synfibril Muscle, Embedded Netburner Module_Analyze Engine, Synthetic Heart, NEMEAN Subdermal Weave, Embedded Netburner Module_Direct Memory Access Upgrade',
-      'prevents': 'Not applicable',
+      'prevents': 'N/A',
       'work': 'Hacking Contracts, Field Work',
       'description': 'Surrender yourself. Give up your empty individuality to become part of something great, something eternal. Become a slave. Submit your mind, body, and soul. Only then can you set yourself free. <br>Only then can you discover immortality.',
       'checklistID': 'faction-30',
@@ -365,7 +365,7 @@ const allFactions = {
       'type': 'Endgame Factions',
       'requirements': '30 Augmentations, $100b, Hacking Level of 2500 OR All Combat Stats of 1500',
       'augmentations': 'NeuroFlux Governor, Synfibril Muscle, Embedded Netburner Module_Analyze Engine, Synthetic Heart, NEMEAN Subdermal Weave, Embedded Netburner Module_Direct Memory Access Upgrade, Embedded Netburner Module_Core V3 Upgrade, The Red Pill',
-      'prevents': 'Not applicable',
+      'prevents': 'N/A',
       'work': 'Hacking Contracts, Field Work',
       'description': 'Yesterday we obeyed kings and bent our necks to emperors. Today we kneel only to truth.',
       'checklistID': 'faction-31',
@@ -377,7 +377,7 @@ const allFactions = {
       'type': 'Endgame Factions',
       'requirements': '30 Augmentations, $150b, Hacking Level of 1500, All Combat Stats of 1200',
       'augmentations': '',
-      'prevents': 'Not applicable',
+      'prevents': 'N/A',
       'work': '',
       'description': '',
       'checklistID': 'faction-32',
@@ -395,20 +395,17 @@ const factionListTemplate = ({
   work,
   description,
 }) => `
-
-<div class="mt-3">
-<div class="card rounded-0">
+<div class="card rounded-0 mt-3">
   <div class="card-body">
   <p class="card-text float-end"><small class="text-muted">${type}</small></p>
     <h6 class="card-title fw-bold">${faction}</h6>
     <p class="card-text"><small class="text-secondary">${description}</small></p>
-    <p class="card-text"><strong>Requirements: </strong>${requirements}</p>
-    <p class="card-text"><strong>Joining this faction prevents you from joining: </strong>${prevents}</p>
+    <p class="card-text"><strong>Requirements: </strong><br>${requirements.replaceAll(', ', '<br>')}</p>
+    <p class="card-text"><strong>Enemies: </strong>${prevents}</p>
     <p class="card-text"><strong>Work Available: </strong>${work}</p>
     <p class="card-text"><strong>Augmentations Available: </strong></p>
     <p class="card-text augmentations-links">${augmentations.replaceAll(', ', '<br>')}</p>
   </div>
-</div>
 </div>
 `;
 
@@ -501,7 +498,7 @@ const factionChecklistTemplate = ({
   checklistID,
 }) => `
 
-<li class="list-group-item">
+<li class="list-group-item border-0">
 <input class="form-check-input me-1 faction-checkbox" type="checkbox" value="" id="${checklistID}">
 <label class="form-check-label" for="${checklistID}">${faction}</label>
 </li>
