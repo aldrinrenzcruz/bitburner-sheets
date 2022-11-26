@@ -37,20 +37,24 @@
 
     <div class="container-fluid">
 
-      
+
 
         <div class="row">
 
             <section class="col-lg-3"></section>
 
             <section class="col-lg-6 col-sm-12 mb-3">
-                <span id="all-factions-data"></span>
-                
-               
+                <input class="form-control mt-3 rounded-0" id="faction-cards-filter" placeholder="Filter cards by content..." type="text">
+                <div id="filterable-faction-card">
+                    <span id="all-factions-data"></span>
+                </div>
             </section>
 
-            <section class="col-lg-3 mt-3">
-                <div class="card border-0"><div class="card-header rounded-0 text-bg-dark">Faction Checklist</div><div class="card-body p-0"><span id="all-factions-checklist"></span></div></div>
+            <section class="col-lg-3 my-3">
+                <div class="card border-0">
+                    <div class="card-header rounded-0 text-bg-dark">Faction Checklist <a class="float-end text-danger"><small>Clear all</small></a></div>
+                    <div class="card-body p-0"><span id="all-factions-checklist"></span></div>
+                </div>
             </section>
 
             <span><small>Updated as of v2.1.0</small></span>
@@ -62,6 +66,20 @@
     <script src="assets/js/factions-data.js"></script>
     <script src="assets/js/checklist.js"></script>
 
+    <script>
+        $("#faction-cards-filter").keyup(function () {
+            let filter = $(this).val(), count = 0;
+            $('#filterable-faction-card div').each(function () {
+                if ($(this).text().search(new RegExp(filter, "i")) < 0) {
+                    $(this).slideUp();
+                } else {
+                    $(this).slideDown();
+                    count++;
+                }
+            });
+        });
+
+    </script>
 </body>
 
 </html>
