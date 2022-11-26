@@ -252,7 +252,7 @@ const augmentsListTemplate = ({
     <h6 class="card-title fw-bold">${augment}</h6>
     <p class="card-text"><small class="text-secondary">${description}</small></p>
     <p class="card-text"><strong>Source: </strong>${source}</p>
-    <p class="card-text"><strong>Price: </strong>${price} / <strong>Rep: </strong>${reputation}</p>
+    <p class="card-text"><strong>Price: </strong>${price} | <strong>Rep: </strong>${reputation}</p>
     <p class="card-text"><strong>Effects: </strong><br><span class="card-text effects-links">${effects.replaceAll(', ', '<br>')}</span></p>
    
   </div>
