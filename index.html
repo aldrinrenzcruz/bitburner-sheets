@@ -36,17 +36,51 @@
 <body>
 
     <div class="container-fluid">
+
         <span class="position-fixed bottom-0 end-0"><small>Updated as of v2.1.0</small></span>
+
         <div class="row">
-            <div class="col-3"></div>
-            <div class="col-lg-6 col-sm-12 mb-3"><span id="all-factions-data"></span></div>
-            <div class="col-3"></div>
+
+            <section class="col-3"></section>
+
+            <section class="col-lg-6 col-sm-12 mb-3">
+                <h5 class="fw-bold mt-3">Factions</h5>
+                <span id="all-factions-data"></span>
+            </section>
+
+            <section class="col-lg-3 mt-3">
+                <span id="all-factions-checklist"></span>
+            </section>
 
         </div>
     </div>
 
+
+
     <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/factions-data.js"></script>
+    <script src="assets/js/factions-checklist.js"></script>
+
+    <script>
+        let checkboxes = document.querySelectorAll('.faction-checkbox').length;
+
+        function saveFactionChecklist() {
+            for (let i = 1; i <= checkboxes; i++) {
+                let checkbox = document.getElementById(String(i));
+                localStorage.setItem("faction-checkbox" + String(i), checkbox.checked);
+            }
+        }
+
+        for (let i = 1; i <= checkboxes; i++) {
+            if (localStorage.length > 0) {
+                var checked = JSON.parse(localStorage.getItem("faction-checkbox" + String(i)));
+                document.getElementById(String(i)).checked = checked;
+            }
+        }
+
+        window.addEventListener('change', saveFactionChecklist);
+
+    </script>
 
 </body>
 

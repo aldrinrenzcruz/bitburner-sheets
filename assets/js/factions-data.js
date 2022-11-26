@@ -36,7 +36,7 @@ const allFactions = {
     { 'faction': 'Illuminati', 'type': 'Endgame Factions', 'requirements': '30 Augmentations, $150b, Hacking Level of 1500, All Combat Stats of 1200', 'augmentations': '', 'prevents': 'Not applicable', 'work': '', 'description': '', },
   ]
 };
-const allQuickLinksTemplate = ({
+const factionListTemplate = ({
   faction,
   type,
   requirements,
@@ -62,6 +62,6 @@ const allQuickLinksTemplate = ({
 </div>
 `;
 
-const factionTable = allFactions.list.map(allQuickLinksTemplate);
+const factionTable = allFactions.list.map(factionListTemplate);
 
 document.querySelector('#all-factions-data').innerHTML = `${factionTable.join("")}`
