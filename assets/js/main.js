@@ -40,3 +40,8 @@ function clearFactionChecklist() {
         }
     }
 }
+
+//Prevent links from being dragged
+$('a').mousedown(function (e) {
+    e.preventDefault();
+});
