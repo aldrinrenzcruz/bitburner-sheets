@@ -16,7 +16,7 @@ const allAugments = {
       'augment': 'Augmented Targeting III', 'source': '', 'prerequisite': '', 'price': '$115.000m', 'reputation': '27.500k rep', 'effects': '+30% dexterity skill', 'description': 'The latest version of the \'Augmented Targeting\' implant adds the ability to lock-on and track threats.',
     },
     {
-      'augment': 'Bionic Arms', 'source': '', 'prerequisite': '', 'price': '$275.000m', 'reputation': '62.500k rep', 'effects': '+30% strength skill, + 30 % dexterity skill', 'description': 'Cybernetic arms created from plasteel and carbon fibers that completely replace the user\'s organic arms.',
+      'augment': 'Bionic Arms', 'source': '', 'prerequisite': '', 'price': '$275.000m', 'reputation': '62.500k rep', 'effects': '+30% strength skill, + 30% dexterity skill', 'description': 'Cybernetic arms created from plasteel and carbon fibers that completely replace the user\'s organic arms.',
     },
     {
       'augment': 'Bionic Legs', 'source': '', 'prerequisite': '', 'price': '$375.000m', 'reputation': '150.000k rep', 'effects': '+60% agility skill', 'description': 'Cybernetic legs, created from plasteel and carbon fibers, enhance running speed.',
@@ -100,7 +100,7 @@ const allAugments = {
       'augment': 'Graphene BrachiBlades Upgrade', 'source': '', 'prerequisite': '', 'price': '$2.500b', 'reputation': '225.000k rep', 'effects': '+40% strength skill, +40% defense skill, +30% crime money, +10% crime success rate', 'description': 'An upgrade to the BrachiBlades augmentation. It infuses the retractable blades with an advanced graphene material making them stronger and lighter.',
     },
     {
-      'augment': 'Hacknet Node Cache Architecture Neural-Upload', 'source': 'Netburners', 'prerequisite': '', 'price': '$5.500m', 'reputation': '1.875k rep', 'effects': '+10% hacknet production, - 15 % hacknet nodes upgrade cost', 'description': 'Uploads the architecture and design details of a Hacknet Node\'s main-memory cache into the brain. This allows the user to engineer custom cache hardware for the Hacknet Node that offers better performance.',
+      'augment': 'Hacknet Node Cache Architecture Neural-Upload', 'source': 'Netburners', 'prerequisite': '', 'price': '$5.500m', 'reputation': '1.875k rep', 'effects': '+10% hacknet production, - 15% hacknet nodes upgrade cost', 'description': 'Uploads the architecture and design details of a Hacknet Node\'s main-memory cache into the brain. This allows the user to engineer custom cache hardware for the Hacknet Node that offers better performance.',
     },
     {
       'augment': 'Hacknet Node Core Direct-Neural Interface', 'source': 'Netburners', 'prerequisite': '', 'price': '$60.000m', 'reputation': '12.500k rep', 'effects': '+45% hacknet production', 'description': 'Installs a Direct-Neural Interface jack into the arm that is capable of connecting to a Hacknet Node. This lets the user access and manipulate the Node\'s processing logic using electrochemical signals.',
@@ -167,7 +167,7 @@ const allAugments = {
       'augment': 'PCMatrix', 'source': '', 'prerequisite': '', 'price': '$2.000b', 'reputation': '100.000k rep', 'effects': '+7.77% charisma skill, +7.77% charisma exp, +7.77% reputation from augments and companies, +7.77% crime money, +7.77% crime success rate, +77.7% work money, Start with DeepscanV1.exe and AutoLink.exe after installing effects.', 'description': 'A \'Probability Computation Matrix\' is installed in the frontal cortex. This implant uses advanced mathematical algorithims to rapidly identify and compute statistical outcomes of nearly every situation.',
     },
     {
-      'augment': 'Power Recirculation Core', 'source': '', 'prerequisite': '', 'price': '$180.000m', 'reputation': '25.000k rep', 'effects': '+5% all skills, + 10 % exp for all skills', 'description': 'The body\'s nerves are attached with polypyrrole nanocircuits that are capable of capturing wasted energy, in the form of heat, and converting it back into usable power.',
+      'augment': 'Power Recirculation Core', 'source': '', 'prerequisite': '', 'price': '$180.000m', 'reputation': '25.000k rep', 'effects': '+5% all skills, + 10% exp for all skills', 'description': 'The body\'s nerves are attached with polypyrrole nanocircuits that are capable of capturing wasted energy, in the form of heat, and converting it back into usable power.',
     },
     {
       'augment': 'SmartSonar Implant', 'source': '', 'prerequisite': '', 'price': '$75.000m', 'reputation': '22.500k rep', 'effects': '+10% dexterity skill, +15% dexterity exp, +25% crime money', 'description': 'A cochlear implant that helps the player detect and locate enemies using sound propagation.',
@@ -227,7 +227,7 @@ const allAugments = {
       'augment': 'The Red Pill', 'source': '', 'prerequisite': '', 'price': '0', 'reputation': '2.500m rep', 'effects': 'Adds w0r1d_d43m0n to network topology', 'description': 'It\'s time to leave the cave.',
     },
     {
-      'augment': 'The Shadow\'s Simulacrum', 'source': '', 'prerequisite': '', 'price': '$400.000m', 'reputation': '37.500k rep', 'effects': ' + 15 % reputation from augments and companies', 'description': 'A crude but functional matter phase - shifter module that is embedded in the brainstem and cerebellum.This augmentation was developed by criminal organizations and allows the user to project and control holographic simulacrums within a large radius.These simulacrums are commonly used for espionage and surveillance work.',
+      'augment': 'The Shadow\'s Simulacrum', 'source': '', 'prerequisite': '', 'price': '$400.000m', 'reputation': '37.500k rep', 'effects': ' + 15% reputation from augments and companies', 'description': 'A crude but functional matter phase - shifter module that is embedded in the brainstem and cerebellum.This augmentation was developed by criminal organizations and allows the user to project and control holographic simulacrums within a large radius.These simulacrums are commonly used for espionage and surveillance work.',
     },
     {
       'augment': 'Unstable Circadian Modulator', 'source': '', 'prerequisite': '', 'price': '$5.000b', 'reputation': '362.500k rep', 'effects': '', 'description': '',
