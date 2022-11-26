@@ -9,8 +9,6 @@ const allFactions = {
       'work': 'Hacking Contracts',
       'description': 'The Internet is the first thing that was built that we don\'t fully understand, the largest experiment in anarchy that we have ever had. And as the world becomes increasingly dominated by it, society approaches the brink of total chaos. We serve only to protect society, to protect humanity, to protect the world from imminent collapse.',
       'checklistID': 'faction-1',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'Netburners',
@@ -21,8 +19,6 @@ const allFactions = {
       'work': 'Hacking Contracts',
       'description': '~~//*>H4CK||3T 8URN3R5**>?>\~~',
       'checklistID': 'faction-2',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'Tian Di Hui',
@@ -33,8 +29,6 @@ const allFactions = {
       'work': 'Hacking Contracts, Security Work',
       'description': 'Obey Heaven and work righteously.',
       'checklistID': 'faction-3',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'Shadows of Anarchy',
@@ -45,8 +39,6 @@ const allFactions = {
       'work': 'Shadows of Anarchy can only gain reputation by infiltrating.',
       'description': 'The government is ruled by the corporations that we have allowed to consume it. To release the world from its shackles, the gods grant us their strength.',
       'checklistID': 'faction-4',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'NiteSec',
@@ -57,8 +49,6 @@ const allFactions = {
       'work': 'Hacking Contracts',
       'description': 'ASCII Art',
       'checklistID': 'faction-5',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'The Black Hand',
@@ -69,8 +59,6 @@ const allFactions = {
       'work': 'Hacking Contracts, Field Work',
       'description': 'The world, so afraid of strong government, now has no government. Only power - Digital power. Financial power. Technological power. And those at the top rule with an invisible hand. They built a society where the rich get richer, and everyone else suffers. <br>So much pain. So many lives. Their darkness must end.',
       'checklistID': 'faction-6',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'Bitrunners',
@@ -81,8 +69,6 @@ const allFactions = {
       'work': 'Hacking Contracts',
       'description': 'Our entire lives are controlled by bits. All of our actions, our thoughts, our personal information. It\'s all transformed into bits, stored in bits, communicated through bits. It’s impossible for any person to move, to live, to operate at any level without the use of bits. And when a person moves, lives, and operates, they leave behind their bits, mere traces of seemingly meaningless fragments of information. But these bits can be reconstructed. Transformed. Used. <br>Those who run the bits, run the world.',
       'checklistID': 'faction-7',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'Sector-12',
@@ -93,8 +79,6 @@ const allFactions = {
       'work': 'Hacking Contracts, Field Work, Security Work',
       'description': 'The City of the Future.',
       'checklistID': 'faction-8',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'Chongqing',
@@ -105,8 +89,6 @@ const allFactions = {
       'work': 'Hacking Contracts, Field Work, Security Work',
       'description': 'Serve the People.',
       'checklistID': 'faction-9',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'Aevum',
@@ -117,8 +99,6 @@ const allFactions = {
       'work': 'Hacking Contracts, Field Work, Security Work',
       'description': 'The Silicon City.',
       'checklistID': 'faction-10',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'Volhaven',
@@ -129,8 +109,6 @@ const allFactions = {
       'work': 'Hacking Contracts, Field Work, Security Work',
       'description': 'Benefit, Honor, and Glory.',
       'checklistID': 'faction-11',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'New Tokyo',
@@ -141,8 +119,6 @@ const allFactions = {
       'work': 'Hacking Contracts, Field Work, Security Work',
       'description': 'Asia\'s World City.',
       'checklistID': 'faction-12',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'Ishima',
@@ -153,8 +129,6 @@ const allFactions = {
       'work': 'Hacking Contracts, Field Work, Security Work',
       'description': 'The East Asian Order of the Future.',
       'checklistID': 'faction-13',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'ECorp',
@@ -165,8 +139,6 @@ const allFactions = {
       'work': '',
       'description': '',
       'checklistID': 'faction-14',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'MegaCorp',
@@ -177,8 +149,6 @@ const allFactions = {
       'work': '',
       'description': '',
       'checklistID': 'faction-15',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'KuaiGong International',
@@ -189,8 +159,6 @@ const allFactions = {
       'work': '',
       'description': '',
       'checklistID': 'faction-16',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'Four Sigma',
@@ -201,8 +169,6 @@ const allFactions = {
       'work': '',
       'description': '',
       'checklistID': 'faction-17',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'NWO',
@@ -213,8 +179,6 @@ const allFactions = {
       'work': '',
       'description': '',
       'checklistID': 'faction-18',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'Blade Industries',
@@ -225,8 +189,6 @@ const allFactions = {
       'work': '',
       'description': '',
       'checklistID': 'faction-19',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'OmniTek Incorporated',
@@ -237,8 +199,6 @@ const allFactions = {
       'work': '',
       'description': '',
       'checklistID': 'faction-20',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'Bachman & Associates',
@@ -249,8 +209,6 @@ const allFactions = {
       'work': '',
       'description': '',
       'checklistID': 'faction-21',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'Clarke Incorporated',
@@ -261,8 +219,6 @@ const allFactions = {
       'work': '',
       'description': '',
       'checklistID': 'faction-22',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'Fulcrum Secret Technologies',
@@ -273,8 +229,6 @@ const allFactions = {
       'work': '',
       'description': '',
       'checklistID': 'faction-23',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'Slum Snakes',
@@ -285,8 +239,6 @@ const allFactions = {
       'work': 'Field Work, Security Work',
       'description': 'Slum Snakes rule!',
       'checklistID': 'faction-24',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'Tetrads',
@@ -297,8 +249,6 @@ const allFactions = {
       'work': 'Field Work, Security Work',
       'description': 'Following the mandate of Heaven and carrying out the way.',
       'checklistID': 'faction-25',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'Silhouette',
@@ -309,8 +259,6 @@ const allFactions = {
       'work': '',
       'description': '',
       'checklistID': 'faction-26',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'Speakers for the Dead',
@@ -321,8 +269,6 @@ const allFactions = {
       'work': 'Hacking Contracts, Field Work, Security Work',
       'description': 'It is better to reign in Hell than to serve in Heaven.',
       'checklistID': 'faction-27',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'The Dark Army',
@@ -333,8 +279,6 @@ const allFactions = {
       'work': 'Hacking Contracts, Field Work',
       'description': 'The World doesn\'t care about right or wrong. It only cares about power.',
       'checklistID': 'faction-28',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'The Syndicate',
@@ -345,8 +289,6 @@ const allFactions = {
       'work': 'Hacking Contracts, Field Work, Security Work',
       'description': 'Honor holds you back.',
       'checklistID': 'faction-29',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'Daedalus',
@@ -357,8 +299,6 @@ const allFactions = {
       'work': 'Hacking Contracts, Field Work',
       'description': 'Yesterday we obeyed kings and bent our necks to emperors. Today we kneel only to truth.',
       'checklistID': 'faction-30',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'The Covenant',
@@ -369,8 +309,6 @@ const allFactions = {
       'work': 'Hacking Contracts, Field Work',
       'description': 'Surrender yourself. Give up your empty individuality to become part of something great, something eternal. Become a slave. Submit your mind, body, and soul. Only then can you set yourself free. <br>Only then can you discover immortality.',
       'checklistID': 'faction-31',
-      'cardID': '',
-      'anchor-link': '',
     },
     {
       'faction': 'Illuminati',
@@ -381,8 +319,6 @@ const allFactions = {
       'work': '',
       'description': '',
       'checklistID': 'faction-32',
-      'cardID': '',
-      'anchor-link': '',
     },
   ]
 };
@@ -395,7 +331,7 @@ const factionListTemplate = ({
   work,
   description,
 }) => `
-<div class="card rounded-0 mt-3">
+<div class="card rounded-0 mt-3 shadow">
   <div class="card-body">
   <p class="card-text float-end"><small class="text-muted">${type}</small></p>
     <h6 class="card-title fw-bold">${faction}</h6>
