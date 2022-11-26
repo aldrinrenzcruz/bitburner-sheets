@@ -246,7 +246,7 @@ const augmentsListTemplate = ({
   effects,
   description,
 }) => `
-<div class="card rounded-0 mt-3 shadow">
+<div class="card border-warning rounded-0 mt-3 shadow">
   <div class="card-body">
   <p class="card-text float-end"><small class="text-muted">Augment</small></p>
     <h6 class="card-title fw-bold">${augment}</h6>
