@@ -1,5 +1,5 @@
+// Faction Checklist
 let factionCheckboxes = document.querySelectorAll('.faction-checkbox').length;
-
 function saveFactionChecklist() {
     for (let i = 1; i <= factionCheckboxes; i++) {
         let x = 'faction-' + String(i);
@@ -7,7 +7,6 @@ function saveFactionChecklist() {
         localStorage.setItem("faction-checkbox" + String(i), checkbox.checked);
     }
 }
-
 for (let i = 1; i <= factionCheckboxes; i++) {
     if (localStorage.length > 0) {
         let x = 'faction-' + String(i);
@@ -15,5 +14,17 @@ for (let i = 1; i <= factionCheckboxes; i++) {
         document.getElementById(x).checked = checked;
     }
 }
-
 window.addEventListener('change', saveFactionChecklist);
+
+// Filter Faction Cards
+$("#faction-cards-filter").keyup(function () {
+  let filter = $(this).val(), count = 0;
+  $('#filterable-faction-card div').each(function () {
+      if ($(this).text().search(new RegExp(filter, "i")) < 0) {
+          $(this).slideUp();
+      } else {
+          $(this).slideDown();
+          count++;
+      }
+  });
+});
