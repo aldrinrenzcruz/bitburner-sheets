@@ -401,7 +401,7 @@ const factionListTemplate = ({
     <h6 class="card-title fw-bold">${faction}</h6>
     <p class="card-text"><small class="text-secondary">${description}</small></p>
     <p class="card-text"><strong>Requirements: </strong><br>${requirements.replaceAll(', ', '<br>')}</p>
-    <p class="card-text"><strong>Enemies: </strong>${prevents}</p>
+    <p class="card-text"><strong>Rivals: </strong>${prevents}</p>
     <p class="card-text"><strong>Work Available: </strong>${work}</p>
     <p class="card-text"><strong>Augmentations Available: </strong></p>
     <p class="card-text augmentations-links">${augmentations.replaceAll(', ', '<br>')}</p>
