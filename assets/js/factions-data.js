@@ -184,9 +184,9 @@ const allFactions = {
       'faction': 'Bachman & Associates',
       'type': 'Corporations',
       'requirements': 'Have 400k reputation with the Corporation',
-      'augmentations': '',
-      'work': '',
-      'description': '',
+      'augmentations': 'NeuroFlux Governor, ADR-V2 Pheromone Gene, FocusWire, Enhanced Social Interaction Implant, SmartJaw, Speech Enhancement, Nuoptimal Nootropic Injector Implant, Neuralstimulator',
+      'work': 'Hacking Contracts, Field Work, Security Work',
+      'description': 'Where Law and Business meet - that\'s where we are. Legal Insight - Business Instinct - Innovative Experience.',
       'checklistID': 'faction-21',
     },
     {
