@@ -132,7 +132,7 @@ const allFactions = {
     },
     {
       'faction': 'ECorp',
-      'type': 'Megacorporations',
+      'type': 'Corporations',
       'requirements': 'Have 400k reputation with the Corporation',
       'augmentations': '',
       'prevents': 'N/A',
@@ -142,17 +142,17 @@ const allFactions = {
     },
     {
       'faction': 'MegaCorp',
-      'type': 'Megacorporations',
+      'type': 'Corporations',
       'requirements': 'Have 400k reputation with the Corporation',
       'augmentations': '',
       'prevents': 'N/A',
-      'work': '',
-      'description': '',
+      'work': 'Hacking Contracts, Field Work, Security Work',
+      'description': 'MegaCorp does what no other dares to do. We imagine. We create. We invent. We create what others have never even dreamed of. Our work fills the world\'s needs for food, water, power, and transportation on an unprecedented scale, in ways that no other company can. In our labs and factories and on the ground with customers, MegaCorp is ushering in a new era for the world.',
       'checklistID': 'faction-15',
     },
     {
       'faction': 'KuaiGong International',
-      'type': 'Megacorporations',
+      'type': 'Corporations',
       'requirements': 'Have 400k reputation with the Corporation',
       'augmentations': '',
       'prevents': 'N/A',
@@ -162,7 +162,7 @@ const allFactions = {
     },
     {
       'faction': 'Four Sigma',
-      'type': 'Megacorporations',
+      'type': 'Corporations',
       'requirements': 'Have 400k reputation with the Corporation',
       'augmentations': '',
       'prevents': 'N/A',
@@ -172,7 +172,7 @@ const allFactions = {
     },
     {
       'faction': 'NWO',
-      'type': 'Megacorporations',
+      'type': 'Corporations',
       'requirements': 'Have 400k reputation with the Corporation',
       'augmentations': '',
       'prevents': 'N/A',
@@ -182,7 +182,7 @@ const allFactions = {
     },
     {
       'faction': 'Blade Industries',
-      'type': 'Megacorporations',
+      'type': 'Corporations',
       'requirements': 'Have 400k reputation with the Corporation',
       'augmentations': '',
       'prevents': 'N/A',
@@ -192,7 +192,7 @@ const allFactions = {
     },
     {
       'faction': 'OmniTek Incorporated',
-      'type': 'Megacorporations',
+      'type': 'Corporations',
       'requirements': 'Have 400k reputation with the Corporation',
       'augmentations': '',
       'prevents': 'N/A',
@@ -202,7 +202,7 @@ const allFactions = {
     },
     {
       'faction': 'Bachman & Associates',
-      'type': 'Megacorporations',
+      'type': 'Corporations',
       'requirements': 'Have 400k reputation with the Corporation',
       'augmentations': '',
       'prevents': 'N/A',
@@ -212,7 +212,7 @@ const allFactions = {
     },
     {
       'faction': 'Clarke Incorporated',
-      'type': 'Megacorporations',
+      'type': 'Corporations',
       'requirements': 'Have 400k reputation with the Corporation',
       'augmentations': '',
       'prevents': 'N/A',
@@ -222,7 +222,7 @@ const allFactions = {
     },
     {
       'faction': 'Fulcrum Secret Technologies',
-      'type': 'Megacorporations',
+      'type': 'Corporations',
       'requirements': 'Have 400k reputation with the Corporation, Install a backdoor on the fulcrumassets server',
       'augmentations': '',
       'prevents': 'N/A',
