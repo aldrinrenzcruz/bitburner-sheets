@@ -166,9 +166,9 @@ const allFactions = {
       faction: 'Blade Industries',
       type: 'Corporations',
       requirements: 'Have 400k reputation with the Corporation',
-      augmentations: '',
-      work: '',
-      description: '',
+      augmentations: 'NeuroFlux Governor, HyperSight Corneal Implant, Neotra, Augmented Targeting I, Combat Rib I, Augmented Targeting II, Embedded Netburner Module, Combat Rib II, Augmented Targeting III, Combat Rib III, Nanofiber Weave, Bionic Spine, Bionic Legs, Embedded Netburner Module Core Implant, PC Direct-Neural Interface, Synfibril Muscle, PC Direct-Neural Interface Optimization Submodule, Embedded Netburner Module Core V2 Upgrade',
+      work: 'Hacking Contracts, Field Work, Security Work',
+      description: 'Augmentation is Salvation.',
       checklistID: 'faction-19',
     },
     {
