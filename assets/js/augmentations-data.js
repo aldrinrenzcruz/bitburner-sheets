@@ -46,6 +46,9 @@ const allAugments = {
       'augment': 'Combat Rib III', 'source': '', 'prerequisite': '', 'price': '$120.000m', 'reputation': '35.000k rep', 'effects': '+18% strength skill, +18% defense skill', 'description': 'The latest version of the \'Combat Rib\' augmentation releases advanced anabolic steroids that improve muscle mass and physical performance while being safe and free of side effects.',
     },
     {
+      'augment': 'CordiARC Fusion Reactor', 'source': '', 'prerequisite': '', 'price': '$5.000b', 'reputation': '1.125m rep', 'effects': '', 'description': '',
+    },
+    {
       'augment': 'Cranial Signal Processors - Gen I', 'source': '', 'prerequisite': '', 'price': '$70.000m', 'reputation': '10.000k rep', 'effects': '+5% hacking skill , +1% faster hack(), grow(), and weaken()', 'description': 'The first generation of Cranial Signal Processors. Cranial Signal Processors are a set of specialized microprocessors that are attached to neurons in the brain. These chips process neural signals to quickly and automatically perform specific computations so that the brain doesn\'t have to.',
     },
     {
@@ -92,6 +95,9 @@ const allAugments = {
     },
     {
       'augment': 'Graphene Bionic Arms Upgrade', 'source': '', 'prerequisite': '', 'price': '$3.750b', 'reputation': '500.000k rep', 'effects': '', 'description': '',
+    },
+    {
+      'augment': 'Graphene Bionic Legs Upgrade', 'source': '', 'prerequisite': '', 'price': '$4.500b', 'reputation': '750.000k rep', 'effects': '', 'description': '',
     },
     {
       'augment': 'Graphene Bone Lacings', 'source': '', 'prerequisite': '', 'price': '$4.250b', 'reputation': '1.125m rep', 'effects': '', 'description': '',

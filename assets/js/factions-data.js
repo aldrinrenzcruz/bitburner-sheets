@@ -144,7 +144,7 @@ const allFactions = {
       'faction': 'MegaCorp',
       'type': 'Corporations',
       'requirements': 'Have 400k reputation with the Corporation',
-      'augmentations': '',
+      'augmentations': 'NeuroFlux Governor, Graphene Bionic Legs Upgrade, CordiARC Fusion Reactor, ADR-V1 Pheromone Gene, Embedded Netburner Module, Embedded Netburner Module Core Implant, Embedded Netburner Module Analyze Engine, Embedded Netburner Module Core V2 Upgrade, Embedded Netburner Module Direct Memory Access Upgrade, Embedded Netburner Module Core V3 Upgrade',
       'prevents': 'N/A',
       'work': 'Hacking Contracts, Field Work, Security Work',
       'description': 'MegaCorp does what no other dares to do. We imagine. We create. We invent. We create what others have never even dreamed of. Our work fills the world\'s needs for food, water, power, and transportation on an unprecedented scale, in ways that no other company can. In our labs and factories and on the ground with customers, MegaCorp is ushering in a new era for the world.',
