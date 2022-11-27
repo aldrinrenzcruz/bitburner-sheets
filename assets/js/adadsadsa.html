@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #filterable-faction-card .highlighted {
+      background-color: yellow;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="center">
+    <nav>
+      <div class="logo">Nexamp</div>
+      <div class="nav-items">
+        <a href="/">Home</a> <a href="/">About</a> <a href="/">Contact</a>
+      </div>
+    </nav>
+    <div class="Main-Items">
+      <strong>Collections:</strong>
+      <a href=espn.com>Animations</a>
+      <a href=espn.com>Animations</a>
+      <a href=espn.com>Animations</a>
+      <a href=espn.com>Animations</a>
+      <a href=espn.com>Animations</a>
+    </div>
+    <section class="search">
+
+      <input type="text" id="faction-cards-filter" onkeyup="myFunction()" placeholder="Search for names..">
+
+      <div id="filterable-faction-card">
+        <li><a href="#">Community Solar</a></li>
+        <li><a href="#">Organic</a></li>
+
+        <li><a href="#">Company Organization</a></li>
+        <li><a href="#">Bob</a></li>
+
+        <li><a href="#">Calvin</a></li>
+        <li><a href="#">Christina</a></li>
+        <li><a href="#">Cindy</a></li>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    function myFunction() {
+      // Declare variables
+      var input, filter, ul, li, a, i, txtValue;
+      input = document.getElementById('faction-cards-filter');
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("filterable-faction-card");
+      li = ul.getElementsByTagName('li');
+
+      // Loop through all list items, and hide those who don't match the search query
+      for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        let matchStart;
+        if ((matchStart = txtValue.toUpperCase().indexOf(filter)) > -1) {
+
+          // Replace link text to include highlighted span
+          a.innerHTML = '';
+          a.appendChild(document.createTextNode(txtValue.slice(0, matchStart)));
+          const highlighted = document.createElement('span');
+          highlighted.classList.add('highlighted');
+          highlighted.innerText = txtValue.slice(matchStart, matchStart + filter.length);
+          a.appendChild(highlighted);
+          a.appendChild(document.createTextNode(txtValue.slice(matchStart + filter.length)));
+
+          li[i].style.display = "";
+          li[i].style.color = 'green';
+        } 
+      }
+    }
+  </script>
+</body>
+
+</html>

@@ -925,8 +925,8 @@ const augmentsListTemplate = ({
   <p class="card-text float-end mark"><small class="text-muted">Augment</small></p>
     <p class="card-title fw-bold">${augment}</p>
     <p class="card-text"><small class="text-secondary">${description}</small></p>
-    <p class="card-text"><small>${price} | ${reputation}</small></p>
-    <p class="card-text"><small>${effects.replaceAll(', +', '<br>+').replaceAll(', -', '<br>-')}</small></p>
+    <p class="card-text text-danger"><small>${price} | ${reputation}</small></p>
+    <p class="card-text text-success"><small>${effects.replaceAll(', +', '<br>+').replaceAll(', -', '<br>-')}</small></p>
     <p class="card-text"><small><strong>Source: </strong>${source}</small></p>
    
   </div>
