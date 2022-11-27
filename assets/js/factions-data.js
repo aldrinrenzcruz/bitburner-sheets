@@ -73,7 +73,7 @@ const allFactions = {
     {
       'faction': 'Sector-12',
       'type': 'City Factions',
-      'requirements': 'Be in Sector-12, $15m',
+      'requirements': 'Be in Sector-12, $15m, Not in City Factions: Chongqing, New Tokyo, Ishima, Volhaven',
       'augmentations': 'NeuroFlux Governor, Neuralstimulator, Wired Reflexes, Augmented Targeting I, Augmented Targeting II, Speech Processor Implant, CashRoot Starter Kit',
       'prevents': 'Chongqing, New Tokyo, Ishima, Volhaven',
       'work': 'Hacking Contracts, Field Work, Security Work',
@@ -81,19 +81,9 @@ const allFactions = {
       'checklistID': 'faction-8',
     },
     {
-      'faction': 'Chongqing',
-      'type': 'City Factions',
-      'requirements': 'Be in Chongqing, $20m',
-      'augmentations': 'NeuroFlux Governor, Neuregen Gene Modification, Nuoptimal Nootropic Injector Implant, Speech Processor Implant, Neuralstimulator, DataJack',
-      'prevents': 'Sector-12, Aevum, Volhaven',
-      'work': 'Hacking Contracts, Field Work, Security Work',
-      'description': 'Serve the People.',
-      'checklistID': 'faction-9',
-    },
-    {
       'faction': 'Aevum',
       'type': 'City Factions',
-      'requirements': 'Be in Aevum, $40m',
+      'requirements': 'Be in Aevum, $40m, Not in city factions: Chongqing, New Tokyo, Ishima, Volhaven',
       'augmentations': 'NeuroFlux Governor, PCMatrix, Neuralstimulator, Wired Reflexes, Neurotrainer I, Synaptic Enhancement Implant, Speech Processor Implant',
       'prevents': 'Chongqing, New Tokyo, Ishima, Volhaven',
       'work': 'Hacking Contracts, Field Work, Security Work',
@@ -103,7 +93,7 @@ const allFactions = {
     {
       'faction': 'Volhaven',
       'type': 'City Factions',
-      'requirements': 'Be in Volhaven, $50m',
+      'requirements': 'Be in Volhaven, $50m, Not in any other city faction',
       'augmentations': 'NeuroFlux Governor, Combat Rib I, Combat Rib II, DermaForce Particle Barrier, Wired Reflexes, Nuoptimal Nootropic Injector Implant, Speech Processor Implant, Neuralstimulator',
       'prevents': 'Sector-12, Aevum, Chongqing, New Tokyo, Ishima',
       'work': 'Hacking Contracts, Field Work, Security Work',
@@ -111,9 +101,19 @@ const allFactions = {
       'checklistID': 'faction-11',
     },
     {
+      'faction': 'Chongqing',
+      'type': 'City Factions',
+      'requirements': 'Be in Chongqing, $20m, Not in City Factions: Sector-12, Aevum, Volhaven',
+      'augmentations': 'NeuroFlux Governor, Neuregen Gene Modification, Nuoptimal Nootropic Injector Implant, Speech Processor Implant, Neuralstimulator, DataJack',
+      'prevents': 'Sector-12, Aevum, Volhaven',
+      'work': 'Hacking Contracts, Field Work, Security Work',
+      'description': 'Serve the People.',
+      'checklistID': 'faction-9',
+    },
+    {
       'faction': 'New Tokyo',
       'type': 'City Factions',
-      'requirements': 'Be in New Tokyo, $20m',
+      'requirements': 'Be in New Tokyo, $20m, Not in City Factions: Sector-12, Aevum, Volhaven',
       'augmentations': 'NeuroFlux Governor, NutriGen Implant, Nuoptimal Nootropic Injector Implant, Speech Processor Implant, Neuralstimulator, DataJack',
       'prevents': 'Sector-12, Aevum, Volhaven',
       'work': 'Hacking Contracts, Field Work, Security Work',
@@ -123,7 +123,7 @@ const allFactions = {
     {
       'faction': 'Ishima',
       'type': 'City Factions',
-      'requirements': 'Be in Ishima, $30m',
+      'requirements': 'Be in Ishima, $30m, Not in City Factions: Sector-12, Aevum, Volhaven',
       'augmentations': 'NeuroFlux Governor, INFRARET Enhancement, Wired Reflexes, Augmented Targeting I, Combat Rib I, Speech Processor Implant, Neuralstimulator',
       'prevents': 'Sector-12, Aevum, Volhaven',
       'work': 'Hacking Contracts, Field Work, Security Work',
@@ -338,9 +338,7 @@ const factionListTemplate = ({
     <p class="card-text"><small class="text-secondary">${description}</small></p>
     <p class="card-text"><small><strong>Requirements: </strong>${requirements}</small></p>
     <p class="card-text"><small><strong>Work: </strong>${work}</small></p>
-    <p class="card-text"><small><strong>Rivals: </strong>${prevents}</small></p>
     <p class="card-text"><small><strong>Augmentations: </strong><br><span class="card-text augmentations-links">${augmentations.replaceAll(', ', '<br>')}</span></small></p>
-   
   </div>
 </div>
 `;
