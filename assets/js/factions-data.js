@@ -193,9 +193,9 @@ const allFactions = {
       faction: 'Clarke Incorporated',
       type: 'Corporations',
       requirements: 'Have 400k reputation with the Corporation',
-      augmentations: '',
-      work: '',
-      description: '',
+      augmentations: 'NeuroFlux Governor, Neuronal Densification, nextSENS Gene Modification, Speech Enhancement, Nuoptimal Nootropic Injector Implant, Neuralstimulator, ADR-V2 Pheromone Gene, FocusWire, Enhanced Social Interaction Implant',
+      work: 'Hacking Contracts, Field Work, Security Work',
+      description: 'The Power of the Genome - Unlocked.',
       checklistID: 'faction-22',
     },
     {
