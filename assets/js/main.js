@@ -1,3 +1,7 @@
+window.onload = function () {
+    checklistCheck();
+}
+
 // Faction Checklist
 let factionCheckboxes = document.querySelectorAll('.faction-checkbox').length;
 function saveFactionChecklist() {
@@ -15,6 +19,7 @@ for (let i = 1; i <= factionCheckboxes; i++) {
     }
 }
 window.addEventListener('change', saveFactionChecklist);
+window.addEventListener('change', checklistCheck);
 
 // Filter Faction Cards
 $("#faction-cards-filter").keyup(function () {

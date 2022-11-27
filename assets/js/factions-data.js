@@ -297,11 +297,13 @@ const factionListTemplate = ({
   augmentations,
   work,
   description,
+  checklistID,
 }) => `
-<div class="card rounded-0 mt-3 shadow">
+<div class="card rounded-0 mt-3 shadow" id="${checklistID.replace('faction','faction-card')}">
   <div class="card-body">
   <p class="card-text float-end mark"><small class="text-muted">${type}</small></p>
-    <p class="card-title fw-bold">${faction}</p>
+  <input class="form-check-input me-1 faction-checkbox" type="checkbox" value="" id="${checklistID}">
+  <label class="form-check-label card-title fw-bold" for="${checklistID}">${faction}</label>
     <p class="card-text"><small class="text-secondary">${description}</small></p>
     <p class="card-text"><small><strong>Requirements: </strong>${requirements}</small></p>
     <p class="card-text"><small><strong>Work: </strong>${work}</small></p>
@@ -314,17 +316,29 @@ const factionTable = allFactions.list.map(factionListTemplate);
 
 document.querySelector('#all-factions-data').innerHTML = factionTable.join("");
 
-const factionChecklistTemplate = ({
-  faction,
-  checklistID,
-}) => `
+function checklistCheck() {
+  if (document.querySelector('#faction-1').checked == true) {
+    document.querySelector('#faction-card-1').style.backgroundColor = "yellow";
+  } else {
+    document.querySelector('#faction-card-1').style.backgroundColor = "inherit";
+  }
+}
 
-<li class="list-group-item border-0">
-<input class="form-check-input me-1 faction-checkbox" type="checkbox" value="" id="${checklistID}">
-<label class="form-check-label stretched-link" for="${checklistID}">${faction}</label>
-</li>
-`;
 
-const factionChecklist = allFactions.list.map(factionChecklistTemplate);
 
-document.querySelector('#all-factions-checklist').innerHTML = `<ul class="list-group rounded-0">${factionChecklist.join("")}</ul>`
+
+
+// const factionChecklistTemplate = ({
+//   faction,
+//   checklistID,
+// }) => `
+
+// <li class="list-group-item border-0">
+// <input class="form-check-input me-1 faction-checkbox" type="checkbox" value="" id="">
+// <label class="form-check-label stretched-link" for="">${faction}</label>
+// </li>
+// `;
+
+// const factionChecklist = allFactions.list.map(factionChecklistTemplate);
+
+// document.querySelector('#all-factions-checklist').innerHTML = `<ul class="list-group rounded-0">${factionChecklist.join("")}</ul>`
