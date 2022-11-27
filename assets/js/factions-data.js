@@ -148,9 +148,9 @@ const allFactions = {
       faction: 'Four Sigma',
       type: 'Corporations',
       requirements: 'Have 400k reputation with the Corporation',
-      augmentations: '',
-      work: '',
-      description: '',
+      augmentations: 'NeuroFlux Governor, Neurotrainer III, Speech Enhancement, ADR-V1 Pheromone Gene, Nuoptimal Nootropic Injector Implant, Neuralstimulator, ADR-V2 Pheromone Gene, FocusWire, Enhanced Social Interaction Implant, PC Direct-Neural Interface',
+      work: 'Hacking Contracts, Field Work, Security Work',
+      description: 'The scientific method is the best way to approach investing. Big strategies backed up with big data. Driven by deep learning and innovative ideas. And improved by iteration. That\'s Four Sigma.',
       checklistID: 'faction-17',
     },
     {
