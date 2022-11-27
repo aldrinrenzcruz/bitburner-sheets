@@ -333,13 +333,13 @@ const factionListTemplate = ({
 }) => `
 <div class="card rounded-0 mt-3 shadow">
   <div class="card-body">
-  <p class="card-text float-end"><small class="text-muted">${type}</small></p>
-    <h6 class="card-title fw-bold">${faction}</h6>
+  <p class="card-text float-end mark"><small class="text-muted">${type}</small></p>
+    <p class="card-title fw-bold">${faction}</p>
     <p class="card-text"><small class="text-secondary">${description}</small></p>
     <p class="card-text"><strong>Requirements: </strong>${requirements}</p>
+    <p class="card-text"><strong>Work: </strong>${work}</p>
     <p class="card-text"><strong>Rivals: </strong>${prevents}</p>
-    <p class="card-text"><strong>Work Available: </strong>${work}</p>
-    <p class="card-text"><strong>Augmentations Available: </strong><br><span class="card-text augmentations-links">${augmentations.replaceAll(', ', '<br>')}</span></p>
+    <p class="card-text"><strong>Augmentations: </strong><br><span class="card-text augmentations-links">${augmentations.replaceAll(', ', '<br>')}</span></p>
    
   </div>
 </div>
