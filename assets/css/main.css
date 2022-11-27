@@ -54,3 +54,8 @@ input[type="checkbox"]:focus {
   background-color: transparent;
   color: inherit;
 }
+
+.accordion-body {
+  max-height: 50vh !important;
+  overflow: auto;
+}
