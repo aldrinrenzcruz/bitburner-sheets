@@ -121,9 +121,9 @@ const allFactions = {
       faction: 'ECorp',
       type: 'Corporations',
       requirements: 'Have 400k reputation with the Corporation',
-      augmentations: '',
-      work: '',
-      description: '',
+      augmentations: 'NeuroFlux Governor, PC Direct-Neural Interface, PC Direct-Neural Interface Optimization Submodule, Graphene Bionic Legs Upgrade, ECorp HVMind Implant, Graphene Bionic Spine Upgrade, Embedded Netburner Module, Embedded Netburner Module Core Implant, Embedded Netburner Module Analyze Engine, Embedded Netburner Module Core V2 Upgrade, Embedded Netburner Module Direct Memory Access Upgrade, Embedded Netburner Module Core V3 Upgrade',
+      work: 'Hacking Contracts, Field Work, Security Work',
+      description: 'ECorp\'s mission is simple: to connect the world of today with the technology of tomorrow. With our wide range of Internet-related software and commercial hardware, ECorp makes the world\'s information universally accessible.',
       checklistID: 'faction-14',
     },
     {

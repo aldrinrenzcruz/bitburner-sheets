@@ -57,5 +57,5 @@ input[type="checkbox"]:focus {
 
 .accordion-body {
   max-height: 50vh !important;
-  overflow: auto;
+  overflow-y: overlay;
 }
