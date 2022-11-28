@@ -44,7 +44,7 @@ function highlightFactionChecklist() {
 // Filter Faction Cards
 $("#faction-cards-filter").keyup(function () {
     let filter = $(this).val(), count = 0;
-    $('#filterable-faction-card div').each(function () {
+    $('#filterable-faction-card tr').each(function () {
         if ($(this).text().search(new RegExp(filter, "i")) < 0) {
             $(this).hide();
         } else {

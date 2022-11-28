@@ -920,7 +920,19 @@ const augmentsListTemplate = ({
   effects,
   description,
 }) => `
-<div class="card rounded-0 mt-3 shadow">
+
+<tr>
+<td><input class="form-check-input me-1" type="checkbox" value="" id=""></td>
+<td>${augment}</td>
+<td>${price}</td>
+<td>${reputation}</td>
+<td>${effects}</td>
+<td>${source}</td>
+</tr>
+
+`;
+
+/* <div class="card rounded-0 mt-3 shadow">
   <div class="card-body">
   <p class="card-text float-end mark"><small class="text-muted">Augment</small></p>
     <p class="card-title fw-bold">${augment}</p>
@@ -930,12 +942,25 @@ const augmentsListTemplate = ({
     <p class="card-text"><small><strong>Source: </strong>${source}</small></p>
    
   </div>
-</div>
-`;
+</div> */
 
 const augmentsTable = allAugments.list.map(augmentsListTemplate);
 
-document.querySelector('#all-augments-data').innerHTML = augmentsTable.join("");
+document.querySelector('#all-augments-data').innerHTML = `<div class="table-responsive">
+<table class="table table-striped table-sm">
+    <thead>
+      <tr>
+        <th scope="col">S</th>
+        <th scope="col">Augment</th>
+        <th scope="col">Price</th>
+        <th scope="col">Rep</th>
+        <th scope="col">Effects</th>
+        <th scope="col">Source</th>
+      </tr>
+    </thead>
+    <tbody>${augmentsTable.join("")} </tbody>
+    </table>
+  </div>`;
 
 const augmentsChecklistTemplate = ({
   augment,
