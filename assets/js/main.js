@@ -30,8 +30,8 @@ function highlightFactionChecklist() {
             let checkbox = 'faction-checkbox-' + String(i);
             let card = 'faction-card-' + String(i);
             let data = `${localStorage.getItem(checkbox)}`
-            const colour = (data == 'true') ? "yellow" : "inherit";
-            document.querySelector('#' + card).style.backgroundColor = colour;
+            let bg = (data == 'true') ? "yellow" : "inherit";
+            document.querySelector('#' + card).style.backgroundColor = bg;
             // if (data == 'true') {
             //     document.querySelector('#' + card).style.backgroundColor = "yellow";
             // } else {
