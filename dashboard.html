@@ -67,28 +67,30 @@
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                     <h5 class="fw-bold">Factions</h5>
                     <div class="btn-toolbar mb-2 mb-md-0">
-                        <div class="btn-group me-2">
-                            <button type="button" class="btn btn-sm btn-outline-secondary rounded-0">Factions</button>
-                            <button type="button" class="btn btn-sm btn-outline-secondary rounded-0">Augments</button>
+                        <div class="btn-group me-2" id="pills-tab" role="tablist">
+                            <button class="btn btn-sm btn-outline-secondary rounded-0" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button">Factions</button>
+                            <button class="btn btn-sm btn-outline-secondary rounded-0" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button">Augments</button>
                         </div>
-                        <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle rounded-0">TODO</button>
-                        <button type="button" class="btn btn-sm btn-danger rounded-0 mx-2" onclick="clearFactionChecklist();">Reset</button>
+                        <button class="btn btn-sm btn-outline-secondary dropdown-toggle rounded-0" type="button">TODO</button>
+                        <button class="btn btn-sm btn-danger rounded-0 mx-2" onclick="clearFactionChecklist();" type="button">Reset</button>
                     </div>
                 </div>
 
-                <section>
-                    <div class="mb-3">
-                        <input class="form-control mt-3 rounded-0 no-highlight shadow" id="faction-cards-filter" placeholder="Search filter..." type="text">
-                    </div>
-                    <div id="filterable-faction-card">
-                        <div class="row g-3">
-                            <div class="col-lg-12"><span id="all-factions-data"></span></div>
-                            <div class="col-lg-12"><span id="all-augments-data"></span></div>
-                        </div>
+                <div class="mb-3">
+                    <input class="form-control mt-3 rounded-0 no-highlight shadow" id="faction-cards-filter" placeholder="Search filter..." type="text">
+                </div>
 
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">Faction</div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">Augment</div>
+                </div>
 
+                <div id="filterable-faction-card">
+                    <div class="row g-3">
+                        <div class="col-lg-12"><span id="all-factions-data"></span></div>
+                        <div class="col-lg-12"><span id="all-augments-data"></span></div>
                     </div>
-                </section>
+                </div>
 
 
             </main>
