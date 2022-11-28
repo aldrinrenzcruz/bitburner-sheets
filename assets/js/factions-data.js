@@ -321,7 +321,6 @@ const factionChecklistTemplate = ({
 }) => `
 
 <li class="list-group-item border-0">
-<input class="form-check-input me-1" type="checkbox" value="" id="">
 <label class="form-check-label" for="">${faction}</label>
 </li>
 `;
