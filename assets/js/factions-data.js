@@ -304,7 +304,7 @@ const factionListTemplate = ({
         <td>${faction}</td>
         <td>${type}</td>
         <td>${requirements}</td>
-        <td>${work}</td>
+        <td>${work.replace(' Contracts', '').replaceAll(' Work', '').replace('Shadows of Anarchy can only gain reputation by infiltrating.', 'Infiltration')}</td>
         <td>${augmentations}</td>
         <td hidden>F: ${faction}</td>
       </tr>
