@@ -948,7 +948,7 @@ const augmentsListTemplate = ({
 const augmentsTable = allAugments.list.map(augmentsListTemplate);
 
 document.querySelector('#all-augments-data').innerHTML = `<div class="table-responsive">
-<table class="table table-striped table-sm">
+<table class="table table-striped table-sm align-middle">
     <thead>
       <tr>
         <th scope="col"> </th>

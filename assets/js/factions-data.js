@@ -326,7 +326,7 @@ const factionListTemplate = ({
 const factionTable = allFactions.list.map(factionListTemplate);
 
 document.querySelector('#all-factions-data').innerHTML = `<div class="table-responsive">
-<table class="table table-striped table-sm">
+<table class="table table-striped table-sm align-middle">
     <thead>
       <tr>
         <th scope="col"> </th>
