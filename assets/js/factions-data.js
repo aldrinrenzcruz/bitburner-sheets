@@ -329,7 +329,7 @@ document.querySelector('#all-factions-data').innerHTML = `<div class="table-resp
 <table class="table table-striped table-sm">
     <thead>
       <tr>
-        <th scope="col">S</th>
+        <th scope="col"> </th>
         <th scope="col">Faction</th>
         <th scope="col">Type</th>
         <th scope="col">Requirements</th>

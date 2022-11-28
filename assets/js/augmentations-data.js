@@ -951,7 +951,7 @@ document.querySelector('#all-augments-data').innerHTML = `<div class="table-resp
 <table class="table table-striped table-sm">
     <thead>
       <tr>
-        <th scope="col">S</th>
+        <th scope="col"> </th>
         <th scope="col">Augment</th>
         <th scope="col">Price</th>
         <th scope="col">Rep</th>
