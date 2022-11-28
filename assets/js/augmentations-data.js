@@ -928,6 +928,7 @@ const augmentsListTemplate = ({
 <td>${reputation}</td>
 <td>${effects}</td>
 <td>${source}</td>
+<td hidden>F: ${augment}</td>
 </tr>
 
 `;
