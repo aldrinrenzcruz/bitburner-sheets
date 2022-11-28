@@ -60,6 +60,7 @@ function clearFactionChecklist() {
             let checkbox = document.getElementById(x);
             checkbox.checked = false;
             saveFactionChecklist();
+            highlightFactionChecklist();
         }
     }
 }

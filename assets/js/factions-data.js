@@ -318,7 +318,6 @@ document.querySelector('#all-factions-data').innerHTML = factionTable.join("");
 
 const factionChecklistTemplate = ({
   faction,
-  checklistID,
 }) => `
 
 <li class="list-group-item border-0">

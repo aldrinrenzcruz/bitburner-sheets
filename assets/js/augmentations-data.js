@@ -936,3 +936,17 @@ const augmentsListTemplate = ({
 const augmentsTable = allAugments.list.map(augmentsListTemplate);
 
 document.querySelector('#all-augments-data').innerHTML = augmentsTable.join("");
+
+const augmentsChecklistTemplate = ({
+  augment,
+}) => `
+
+<li class="list-group-item border-0">
+<input class="form-check-input me-1" type="checkbox" value="" id="">
+<label class="form-check-label" for="">${augment}</label>
+</li>
+`;
+
+const augmentsChecklist = allAugments.list.map(augmentsChecklistTemplate);
+
+document.querySelector('#all-augments-checklist').innerHTML = `<ul class="list-group rounded-0">${augmentsChecklist.join("")}</ul>`
