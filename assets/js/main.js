@@ -1,5 +1,10 @@
-window.onload = function () {
-    checklistCheck();
+window.onload = () => {
+    highlightFactionChecklist();
+}
+
+window.onchange = () => {
+    saveFactionChecklist();
+    highlightFactionChecklist();
 }
 
 // Faction Checklist
@@ -8,18 +13,31 @@ function saveFactionChecklist() {
     for (let i = 1; i <= factionCheckboxes; i++) {
         let x = 'faction-' + String(i);
         let checkbox = document.getElementById(x);
-        localStorage.setItem("faction-checkbox" + String(i), checkbox.checked);
+        localStorage.setItem("faction-checkbox-" + String(i), checkbox.checked);
     }
 }
 for (let i = 1; i <= factionCheckboxes; i++) {
     if (localStorage.length > 0) {
         let x = 'faction-' + String(i);
-        let checked = JSON.parse(localStorage.getItem("faction-checkbox" + String(i)));
+        let checked = JSON.parse(localStorage.getItem("faction-checkbox-" + String(i)));
         document.getElementById(x).checked = checked;
     }
 }
-window.addEventListener('change', saveFactionChecklist);
-window.addEventListener('change', checklistCheck);
+
+function highlightFactionChecklist() {
+    for (let i = 1; i <= factionCheckboxes; i++) {
+        if (localStorage.length > 0) {
+            let checkbox = 'faction-checkbox-' + String(i);
+            let card = 'faction-card-' + String(i);
+            let data = `${localStorage.getItem(checkbox)}`
+            if (data == 'true') {
+                document.querySelector('#' + card).style.backgroundColor = "yellow";
+            } else {
+                document.querySelector('#' + card).style.backgroundColor = "inherit";
+            }
+        }
+    }
+}
 
 // Filter Faction Cards
 $("#faction-cards-filter").keyup(function () {
