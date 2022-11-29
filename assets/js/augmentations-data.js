@@ -505,8 +505,8 @@ const allAugments = {
       ID: '51',
       source: 'Slum Snakes, Tetrads',
       prerequisite: '',
-      price: 'TODO',
-      reputation: 'TODO',
+      price: '$500.000k',
+      reputation: '1.500k rep',
       effects: '+5% agility skill, +10% crime money',
       description: 'A skin implant that reinforces the skin with highly-advanced synthetic cells. These cells, when powered, have a negative refractive index. As a result, they bend light around the skin, making the user much harder to see with the naked eye.',
     },
@@ -1027,6 +1027,7 @@ const augmentsListTemplate = ({
   <td>${augment}</td>
   <td>${price}</td>
   <td>${reputation}</td>
+  <td>${prerequisite}</td>
   <td>${effects}</td>
   <td>${source}</td>
   <td hidden>F: ${augment}</td>
@@ -1044,6 +1045,7 @@ document.querySelector('#all-augments-data').innerHTML = `
         <th scope="col">Augment</th>
         <th scope="col">Price</th>
         <th scope="col">Rep</th>
+        <th scope="col">Prereq</th>
         <th scope="col">Effects</th>
         <th scope="col">Source</th>
       </tr>
