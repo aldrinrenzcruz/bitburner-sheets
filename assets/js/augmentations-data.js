@@ -933,22 +933,11 @@ const augmentsListTemplate = ({
 
 `;
 
-/* <div class="card rounded-0 mt-3 shadow">
-  <div class="card-body">
-  <p class="card-text float-end mark"><small class="text-muted">Augment</small></p>
-    <p class="card-title fw-bold">${augment}</p>
-    <p class="card-text"><small class="text-secondary">${description}</small></p>
-    <p class="card-text"><small>${price} | ${reputation}</small></p>
-    <p class="card-text"><small>${effects.replaceAll(', +', '<br>+').replaceAll(', -', '<br>-')}</small></p>
-    <p class="card-text"><small><strong>Source: </strong>${source}</small></p>
-   
-  </div>
-</div> */
-
 const augmentsTable = allAugments.list.map(augmentsListTemplate);
 
-document.querySelector('#all-augments-data').innerHTML = `<div class="table-responsive">
-<table class="table table-striped table-sm align-middle">
+document.querySelector('#all-augments-data').innerHTML = `
+<div class="table-responsive">
+  <table class="table table-striped table-sm align-middle">
     <thead>
       <tr>
         <th scope="col"> </th>
@@ -959,9 +948,11 @@ document.querySelector('#all-augments-data').innerHTML = `<div class="table-resp
         <th scope="col">Source</th>
       </tr>
     </thead>
-    <tbody>${augmentsTable.join("")} </tbody>
-    </table>
-  </div>`;
+    <tbody>
+      ${augmentsTable.join("")} 
+    </tbody>
+  </table>
+</div>`;
 
 // const augmentsChecklistTemplate = ({
 //   augment,

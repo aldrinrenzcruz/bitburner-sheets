@@ -310,23 +310,11 @@ const factionListTemplate = ({
       </tr>
 `;
 
-/* <div class="card rounded-0 mt-3 shadow" id="${checklistID.replace('faction', 'faction-card')}">
-  <div class="card-body">
-    <p class="card-text float-end mark"><small class="text-muted">${type}</small></p>
-    <input class="form-check-input me-1 faction-checkbox" type="checkbox" value="" id="${checklistID}">
-      <label class="form-check-label card-title fw-bold" for="${checklistID}">${faction}</label>
-      <p class="card-text"><small class="text-secondary">${description}</small></p>
-      <p class="card-text"><small><strong>Requirements: </strong>${requirements}</small></p>
-      <p class="card-text"><small><strong>Work: </strong>${work}</small></p>
-      <p class="card-text"><small><strong>Augmentations: </strong><br><span class="card-text augmentations-links">${augmentations.replaceAll(', ', '<br>')}</span></small></p>
-  </div>
-</div> */
-
-
 const factionTable = allFactions.list.map(factionListTemplate);
 
-document.querySelector('#all-factions-data').innerHTML = `<div class="table-responsive">
-<table class="table table-striped table-sm align-middle">
+document.querySelector('#all-factions-data').innerHTML = `
+<div class="table-responsive">
+  <table class="table table-striped table-sm align-middle">
     <thead>
       <tr>
         <th scope="col"> </th>
@@ -337,7 +325,8 @@ document.querySelector('#all-factions-data').innerHTML = `<div class="table-resp
         <th scope="col">Augmentations</th>
       </tr>
     </thead>
-    <tbody>${factionTable.join("")}
+    <tbody>
+      ${factionTable.join("")}
     </tbody>
   </table>
 </div>

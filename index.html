@@ -31,9 +31,9 @@
   <div class="container-fluid">
     <div class="row">
 
-      <section class="col-lg-1 col-md-1"></section>
+      <div class="col-lg-1 col-md-1"></div>
 
-      <section class="col-lg-10 col-md-8 ms-sm-auto px-md-4">
+      <main class="col-lg-10 col-md-8 ms-sm-auto px-md-4">
         <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3">
           <h5 class="fw-bold no-highlight">Bitburner Sheets</h5>
           <div class="btn-toolbar mb-2 mb-md-0">
@@ -49,19 +49,28 @@
 
         <hr>
 
-        <div class="tab-content">
+        <section class="tab-content">
+
           <div class="tab-pane fade show active" id="pills-factions">
             <input class="form-control my-3 rounded-0 no-highlight shadow" id="faction-cards-filter" placeholder="Search filter..." type="text">
-            <div id="filterable-faction-card"><span id="all-factions-data"></span></div>
+            <div id="filterable-faction-card">
+              <span id="all-factions-data"></span>
+            </div>
           </div>
-          <div class="tab-pane fade" id="pills-augments"><span id="all-augments-data"></span></div>
-        </div>
-        <div class="my-2 text-center">
-          <span><small>By <a href="https://github.com/ixwrites" target="_blank">Ivma</a>, Updated as of v2.1.0</small></span>
-        </div>
-      </section>
 
-      <section class="col-lg-1  col-md-1"></section>
+          <div class="tab-pane fade" id="pills-augments">
+            <span id="all-augments-data"></span>
+          </div>
+
+        </section>
+
+        <section class="my-2 text-center">
+          <span><small>By <a href="https://github.com/ixwrites" target="_blank">Ivma</a>, Updated as of v2.1.0</small></span>
+        </section>
+
+      </main>
+
+      <div class="col-lg-1 col-md-1"></div>
 
     </div>
   </div>
