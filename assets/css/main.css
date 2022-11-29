@@ -76,3 +76,7 @@ input[type="checkbox"]:focus {
   overflow-x: hidden;
   overflow-y: auto;
 }
+
+.tooltip {
+  border-radius: 0 !important;
+}
