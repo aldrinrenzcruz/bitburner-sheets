@@ -87,29 +87,6 @@ function clearFactionChecklist() {
     }
 }
 
-// Pretend you have read each value from an object.
-// const a = "true";
-// const b = "true";
-// const f = "false";
-// const g = "true";
-// const n = "true";
-// Get the boolean value of each "boolean" string.
-// The same as converting boolean string to actual boolean value.
-// The .toLowerCase() is there to ensure that each boolean string
-// is OK to be compared.  For example, this is not what you want:
-// "True" === "true";
-// This is what you want (after conversion to lowercase):
-// "true" === true;
-// const A = a.toLowerCase() === "true";
-// const B = b.toLowerCase() === "true";
-// const F = f.toLowerCase() === "true";
-// const G = g.toLowerCase() === "true";
-// const N = n.toLowerCase() === "true";
-// const result = A && B && F && G && N;
-// const more_result = result ? "#ffff70" : "inherit";
-// document.querySelector('#faction-card-1').style.backgroundColor = more_result;
-// console.log(more_result);
-
 // Filter Faction Cards
 $("#faction-cards-filter").keyup(function () {
     let filter = $(this).val(), count = 0;
