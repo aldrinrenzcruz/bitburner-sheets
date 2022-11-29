@@ -123,6 +123,19 @@ $("#faction-cards-filter").keyup(function () {
     });
 });
 
+// Filter Augment Cards
+$("#augment-cards-filter").keyup(function () {
+    let filter = $(this).val(), count = 0;
+    $('#filterable-augment-card tr').each(function () {
+        if ($(this).text().search(new RegExp(filter, "i")) < 0) {
+            $(this).hide();
+        } else {
+            $(this).show();
+            count++;
+        }
+    });
+});
+
 //Prevent links from being dragged
 $('a').mousedown(function (e) {
     e.preventDefault();

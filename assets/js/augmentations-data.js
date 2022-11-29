@@ -1023,7 +1023,6 @@ const augmentsListTemplate = ({
   description,
 }) => `
 <tr id="augment-card-${ID}">
-  <td>${ID}</td>
   <td><input class="form-check-input me-1 augment-checkbox" id="augment-${ID}" onchange="saveAugmentChecklist(${ID});" type="checkbox" value=""></td>
   <td>${augment}</td>
   <td>${price}</td>
@@ -1041,7 +1040,6 @@ document.querySelector('#all-augments-data').innerHTML = `
   <table class="table table-striped table-sm align-middle">
     <thead>
       <tr>
-        <th scope="col">#</th>
         <th scope="col"> </th>
         <th scope="col">Augment</th>
         <th scope="col">Price</th>
