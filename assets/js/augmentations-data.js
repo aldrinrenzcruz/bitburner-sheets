@@ -1027,9 +1027,9 @@ const augmentsListTemplate = ({
   <td>${augment}</td>
   <td>${price}</td>
   <td>${reputation}</td>
-  <td>${prereqs}</td>
   <td>${effects}</td>
   <td>${source}</td>
+  <td>${prereqs}</td>
   <td hidden>F: ${augment}</td>
 </tr>
 `;
