@@ -343,15 +343,15 @@ document.querySelector('#all-factions-data').innerHTML = `<div class="table-resp
 </div>
 `;
 
-const factionChecklistTemplate = ({
-  faction,
-}) => `
+// const factionChecklistTemplate = ({
+//   faction,
+// }) => `
 
-<li class="list-group-item border-0">
-<label class="form-check-label" for="">${faction}</label>
-</li>
-`;
+// <li class="list-group-item border-0">
+// <label class="form-check-label" for="">${faction}</label>
+// </li>
+// `;
 
-const factionChecklist = allFactions.list.map(factionChecklistTemplate);
+// const factionChecklist = allFactions.list.map(factionChecklistTemplate);
 
-document.querySelector('#all-factions-checklist').innerHTML = `<ul class="list-group rounded-0">${factionChecklist.join("")}</ul>`
+// document.querySelector('#all-factions-checklist').innerHTML = `<ul class="list-group rounded-0">${factionChecklist.join("")}</ul>`

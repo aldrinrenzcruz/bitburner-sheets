@@ -963,15 +963,15 @@ document.querySelector('#all-augments-data').innerHTML = `<div class="table-resp
     </table>
   </div>`;
 
-const augmentsChecklistTemplate = ({
-  augment,
-}) => `
+// const augmentsChecklistTemplate = ({
+//   augment,
+// }) => `
 
-<li class="list-group-item border-0">
-<label class="form-check-label" for="">${augment}</label>
-</li>
-`;
+// <li class="list-group-item border-0">
+// <label class="form-check-label" for="">${augment}</label>
+// </li>
+// `;
 
-const augmentsChecklist = allAugments.list.map(augmentsChecklistTemplate);
+// const augmentsChecklist = allAugments.list.map(augmentsChecklistTemplate);
 
-document.querySelector('#all-augments-checklist').innerHTML = `<ul class="list-group rounded-0">${augmentsChecklist.join("")}</ul>`
+// document.querySelector('#all-augments-checklist').innerHTML = `<ul class="list-group rounded-0">${augmentsChecklist.join("")}</ul>`
