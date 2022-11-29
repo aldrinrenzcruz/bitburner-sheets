@@ -1,4 +1,5 @@
 window.onload = () => {
+    loadAugmentChecklist();
     highlightAugmentChecklist();
     highlightFactionChecklist();
     masterHighlighter();
@@ -8,6 +9,7 @@ window.onchange = () => {
     masterHighlighter();
     highlightAugmentChecklist();
     highlightFactionChecklist();
+    loadAugmentChecklist();
 }
 
 // Save Faction checkbox data to localStorage
@@ -31,7 +33,7 @@ function highlightFactionChecklist() {
             let checkbox = 'faction-checkbox-' + String(i);
             let card = 'faction-card-' + String(i);
             let data = `${localStorage.getItem(checkbox)}`
-            let bg = (data == 'true') ? "#ffff70" : "inherit";
+            let bg = (data == 'true') ? "#ffffa3" : "inherit";
             document.querySelector('#' + card).style.backgroundColor = bg;
             // if (data == 'true') {
             //     document.querySelector('#' + card).style.backgroundColor = "yellow";
@@ -43,27 +45,29 @@ function highlightFactionChecklist() {
 }
 
 // Save Augment checkbox data to localStorage
-let augmentCheckboxes = document.querySelectorAll('.augment-checkbox').length;
 function saveAugmentChecklist(n) {
     localStorage.setItem("augment-checkbox-" + n, document.querySelector("#augment-" + n).checked);
 }
 
 // Load Augment checkbox data from localStorage
-for (let i = 1; i <= augmentCheckboxes; i++) {
-    if (localStorage.length > 0) {
-        let x = 'augment-' + String(i);
-        let checked = JSON.parse(localStorage.getItem("augment-checkbox-" + String(i)));
-        document.getElementById(x).checked = checked;
+function loadAugmentChecklist() {
+    for (let i = 1; i <= document.querySelectorAll('.augment-checkbox').length; i++) {
+        if (localStorage.length > 0) {
+            let x = 'augment-' + String(i);
+            let checked = JSON.parse(localStorage.getItem("augment-checkbox-" + String(i)));
+            document.getElementById(x).checked = checked;
+        }
     }
 }
+
 // Augment Highlighter
 function highlightAugmentChecklist() {
-    for (let i = 1; i <= augmentCheckboxes; i++) {
+    for (let i = 1; i <= document.querySelectorAll('.augment-checkbox').length; i++) {
         if (localStorage.length > 0) {
             let checkbox = 'augment-checkbox-' + String(i);
             let card = 'augment-card-' + String(i);
             let data = `${localStorage.getItem(checkbox)}`
-            let bg = (data == 'true') ? "#ffff70" : "inherit";
+            let bg = (data == 'true') ? "#ffffa3" : "inherit";
             document.querySelector('#' + card).style.backgroundColor = bg;
             // if (data == 'true') {
             //     document.querySelector('#' + card).style.backgroundColor = "yellow";

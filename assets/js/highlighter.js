@@ -162,122 +162,428 @@ function masterHighlighter() {
 
   if (shadows_of_anarchy == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-79", "true");
+    localStorage.setItem("augment-checkbox-80", "true");
+    localStorage.setItem("augment-checkbox-81", "true");
+    localStorage.setItem("augment-checkbox-82", "true");
+    localStorage.setItem("augment-checkbox-83", "true");
+    localStorage.setItem("augment-checkbox-84", "true");
+    localStorage.setItem("augment-checkbox-85", "true");
+    localStorage.setItem("augment-checkbox-86", "true");
+    localStorage.setItem("augment-checkbox-87", "true");
   }
 
   if (tian_di_hui == "true") {
+    localStorage.setItem("augment-checkbox-1", "true");
+    localStorage.setItem("augment-checkbox-53", "true");
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-62", "true");
+    localStorage.setItem("augment-checkbox-67", "true");
+    localStorage.setItem("augment-checkbox-88", "true");
+    localStorage.setItem("augment-checkbox-89", "true");
+    localStorage.setItem("augment-checkbox-90", "true");
+    localStorage.setItem("augment-checkbox-100", "true");
   }
 
   if (bitrunners == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+
+    localStorage.setItem("augment-checkbox-25", "true");
+    localStorage.setItem("augment-checkbox-22", "true");
+    localStorage.setItem("augment-checkbox-34", "true");
+    localStorage.setItem("augment-checkbox-56", "true");
+    localStorage.setItem("augment-checkbox-23", "true");
+    localStorage.setItem("augment-checkbox-30", "true");
+    localStorage.setItem("augment-checkbox-3", "true");
+    localStorage.setItem("augment-checkbox-11", "true");
+    localStorage.setItem("augment-checkbox-31", "true");
+    localStorage.setItem("augment-checkbox-64", "true");
+    localStorage.setItem("augment-checkbox-28", "true");
+    localStorage.setItem("augment-checkbox-21", "true");
+
   }
 
   if (nitesec == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-25", "true");
+    localStorage.setItem("augment-checkbox-12", "true");
+    localStorage.setItem("augment-checkbox-64", "true");
+    localStorage.setItem("augment-checkbox-19", "true");
+    localStorage.setItem("augment-checkbox-4", "true");
+    localStorage.setItem("augment-checkbox-20", "true");
+    localStorage.setItem("augment-checkbox-24", "true");
+    localStorage.setItem("augment-checkbox-57", "true");
+    localStorage.setItem("augment-checkbox-28", "true");
+    localStorage.setItem("augment-checkbox-21", "true");
+
   }
 
   if (the_black_hand == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-25", "true");
+    localStorage.setItem("augment-checkbox-95", "true");
+    localStorage.setItem("augment-checkbox-22", "true");
+    localStorage.setItem("augment-checkbox-34", "true");
+    localStorage.setItem("augment-checkbox-30", "true");
+    localStorage.setItem("augment-checkbox-58", "true");
+    localStorage.setItem("augment-checkbox-4", "true");
+    localStorage.setItem("augment-checkbox-28", "true");
+    localStorage.setItem("augment-checkbox-21", "true");
+
   }
 
   if (aevum == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-73", "true");
+    localStorage.setItem("augment-checkbox-58", "true");
+    localStorage.setItem("augment-checkbox-100", "true");
+    localStorage.setItem("augment-checkbox-63", "true");
+    localStorage.setItem("augment-checkbox-92", "true");
+    localStorage.setItem("augment-checkbox-90", "true");
+
   }
 
   if (chongqing == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-59", "true");
+    localStorage.setItem("augment-checkbox-67", "true");
+    localStorage.setItem("augment-checkbox-90", "true");
+    localStorage.setItem("augment-checkbox-58", "true");
+    localStorage.setItem("augment-checkbox-25", "true");
+
   }
 
   if (ishima == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-50", "true");
+    localStorage.setItem("augment-checkbox-100", "true");
+    localStorage.setItem("augment-checkbox-5", "true");
+    localStorage.setItem("augment-checkbox-15", "true");
+    localStorage.setItem("augment-checkbox-90", "true");
+    localStorage.setItem("augment-checkbox-58", "true");
+
   }
 
   if (new_tokyo == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-68", "true");
+    localStorage.setItem("augment-checkbox-67", "true");
+    localStorage.setItem("augment-checkbox-90", "true");
+    localStorage.setItem("augment-checkbox-58", "true");
+    localStorage.setItem("augment-checkbox-25", "true");
+
   }
 
   if (sector_12 == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-58", "true");
+    localStorage.setItem("augment-checkbox-100", "true");
+    localStorage.setItem("augment-checkbox-5", "true");
+    localStorage.setItem("augment-checkbox-6", "true");
+    localStorage.setItem("augment-checkbox-90", "true");
+    localStorage.setItem("augment-checkbox-14", "true");
   }
 
   if (volhaven == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-15", "true");
+    localStorage.setItem("augment-checkbox-16", "true");
+    localStorage.setItem("augment-checkbox-26", "true");
+    localStorage.setItem("augment-checkbox-100", "true");
+    localStorage.setItem("augment-checkbox-67", "true");
+    localStorage.setItem("augment-checkbox-90", "true");
+    localStorage.setItem("augment-checkbox-58", "true");
+
   }
 
   if (daedalus == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-93", "true");
+    localStorage.setItem("augment-checkbox-29", "true");
+    localStorage.setItem("augment-checkbox-94", "true");
+    localStorage.setItem("augment-checkbox-54", "true");
+    localStorage.setItem("augment-checkbox-33", "true");
+    localStorage.setItem("augment-checkbox-32", "true");
+    localStorage.setItem("augment-checkbox-96", "true");
   }
 
   if (illuminati == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-76", "true");
+    localStorage.setItem("augment-checkbox-93", "true");
+    localStorage.setItem("augment-checkbox-29", "true");
+    localStorage.setItem("augment-checkbox-94", "true");
+    localStorage.setItem("augment-checkbox-54", "true");
+    localStorage.setItem("augment-checkbox-33", "true");
+    localStorage.setItem("augment-checkbox-32", "true");
+
   }
 
   if (the_covenant == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-40", "true");
+    localStorage.setItem("augment-checkbox-91", "true");
+    localStorage.setItem("augment-checkbox-32", "true");
+    localStorage.setItem("augment-checkbox-7", "true");
+    localStorage.setItem("augment-checkbox-17", "true");
+    localStorage.setItem("augment-checkbox-93", "true");
+    localStorage.setItem("augment-checkbox-29", "true");
+    localStorage.setItem("augment-checkbox-94", "true");
+    localStorage.setItem("augment-checkbox-54", "true");
+    localStorage.setItem("augment-checkbox-33", "true");
+
   }
 
   if (silhouette == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-98", "true");
+    localStorage.setItem("augment-checkbox-90", "true");
+    localStorage.setItem("augment-checkbox-2", "true");
+
   }
 
   if (slum_snakes == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-52", "true");
+    localStorage.setItem("augment-checkbox-78", "true");
+    localStorage.setItem("augment-checkbox-100", "true");
+    localStorage.setItem("augment-checkbox-51", "true");
+    localStorage.setItem("augment-checkbox-5", "true");
+    localStorage.setItem("augment-checkbox-15", "true");
+
   }
 
   if (speakers_for_the_dead == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-41", "true");
+    localStorage.setItem("augment-checkbox-99", "true");
+    localStorage.setItem("augment-checkbox-93", "true");
+    localStorage.setItem("augment-checkbox-94", "true");
+    localStorage.setItem("augment-checkbox-100", "true");
+    localStorage.setItem("augment-checkbox-89", "true");
+    localStorage.setItem("augment-checkbox-53", "true");
+    localStorage.setItem("augment-checkbox-97", "true");
+    localStorage.setItem("augment-checkbox-10", "true");
+    localStorage.setItem("augment-checkbox-9", "true");
+
   }
 
   if (tetrads == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-52", "true");
+    localStorage.setItem("augment-checkbox-47", "true");
+    localStorage.setItem("augment-checkbox-75", "true");
+    localStorage.setItem("augment-checkbox-8", "true");
+    localStorage.setItem("augment-checkbox-51", "true");
+
   }
 
   if (the_dark_army == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-37", "true");
+    localStorage.setItem("augment-checkbox-100", "true");
+    localStorage.setItem("augment-checkbox-5", "true");
+    localStorage.setItem("augment-checkbox-15", "true");
+    localStorage.setItem("augment-checkbox-6", "true");
+    localStorage.setItem("augment-checkbox-47", "true");
+    localStorage.setItem("augment-checkbox-16", "true");
+    localStorage.setItem("augment-checkbox-75", "true");
+    localStorage.setItem("augment-checkbox-7", "true");
+    localStorage.setItem("augment-checkbox-17", "true");
+    localStorage.setItem("augment-checkbox-53", "true");
+    localStorage.setItem("augment-checkbox-97", "true");
+
   }
 
   if (the_syndicate == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-47", "true");
+    localStorage.setItem("augment-checkbox-13", "true");
+    localStorage.setItem("augment-checkbox-75", "true");
+    localStorage.setItem("augment-checkbox-7", "true");
+    localStorage.setItem("augment-checkbox-17", "true");
+    localStorage.setItem("augment-checkbox-97", "true");
+    localStorage.setItem("augment-checkbox-10", "true");
+    localStorage.setItem("augment-checkbox-9", "true");
+    localStorage.setItem("augment-checkbox-54", "true");
+    localStorage.setItem("augment-checkbox-100", "true");
+    localStorage.setItem("augment-checkbox-1", "true");
+    localStorage.setItem("augment-checkbox-5", "true");
+    localStorage.setItem("augment-checkbox-15", "true");
+    localStorage.setItem("augment-checkbox-6", "true");
+    localStorage.setItem("augment-checkbox-16", "true");
+    localStorage.setItem("augment-checkbox-53", "true");
+
   }
 
   if (bachman_and_associates == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-2", "true");
+    localStorage.setItem("augment-checkbox-36", "true");
+    localStorage.setItem("augment-checkbox-35", "true");
+    localStorage.setItem("augment-checkbox-77", "true");
+    localStorage.setItem("augment-checkbox-89", "true");
+    localStorage.setItem("augment-checkbox-67", "true");
+    localStorage.setItem("augment-checkbox-58", "true");
+
   }
 
   if (blade_industries == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-49", "true");
+    localStorage.setItem("augment-checkbox-55", "true");
+    localStorage.setItem("augment-checkbox-5", "true");
+    localStorage.setItem("augment-checkbox-15", "true");
+    localStorage.setItem("augment-checkbox-6", "true");
+    localStorage.setItem("augment-checkbox-28", "true");
+    localStorage.setItem("augment-checkbox-16", "true");
+    localStorage.setItem("augment-checkbox-7", "true");
+    localStorage.setItem("augment-checkbox-17", "true");
+    localStorage.setItem("augment-checkbox-53", "true");
+    localStorage.setItem("augment-checkbox-10", "true");
+    localStorage.setItem("augment-checkbox-9", "true");
+    localStorage.setItem("augment-checkbox-30", "true");
+    localStorage.setItem("augment-checkbox-70", "true");
+    localStorage.setItem("augment-checkbox-93", "true");
+    localStorage.setItem("augment-checkbox-72", "true");
+    localStorage.setItem("augment-checkbox-31", "true");
+
   }
 
   if (clarke_incorporated == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-61", "true");
+    localStorage.setItem("augment-checkbox-66", "true");
+    localStorage.setItem("augment-checkbox-89", "true");
+    localStorage.setItem("augment-checkbox-67", "true");
+    localStorage.setItem("augment-checkbox-58", "true");
+    localStorage.setItem("augment-checkbox-2", "true");
+    localStorage.setItem("augment-checkbox-36", "true");
+    localStorage.setItem("augment-checkbox-35", "true");
+
   }
 
   if (ecorp == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-70", "true");
+    localStorage.setItem("augment-checkbox-72", "true");
+    localStorage.setItem("augment-checkbox-38", "true");
+    localStorage.setItem("augment-checkbox-27", "true");
+    localStorage.setItem("augment-checkbox-39", "true");
+    localStorage.setItem("augment-checkbox-28", "true");
+    localStorage.setItem("augment-checkbox-30", "true");
+    localStorage.setItem("augment-checkbox-29", "true");
+    localStorage.setItem("augment-checkbox-31", "true");
+    localStorage.setItem("augment-checkbox-33", "true");
+    localStorage.setItem("augment-checkbox-32", "true");
+
   }
 
   if (four_sigma == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-65", "true");
+    localStorage.setItem("augment-checkbox-89", "true");
+    localStorage.setItem("augment-checkbox-1", "true");
+    localStorage.setItem("augment-checkbox-67", "true");
+    localStorage.setItem("augment-checkbox-58", "true");
+    localStorage.setItem("augment-checkbox-2", "true");
+    localStorage.setItem("augment-checkbox-36", "true");
+    localStorage.setItem("augment-checkbox-35", "true");
+    localStorage.setItem("augment-checkbox-70", "true");
+
   }
 
   if (fulcrum_secret_technologies == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-40", "true");
+    localStorage.setItem("augment-checkbox-71", "true");
+    localStorage.setItem("augment-checkbox-28", "true");
+    localStorage.setItem("augment-checkbox-53", "true");
+    localStorage.setItem("augment-checkbox-34", "true");
+    localStorage.setItem("augment-checkbox-30", "true");
+    localStorage.setItem("augment-checkbox-3", "true");
+    localStorage.setItem("augment-checkbox-93", "true");
+    localStorage.setItem("augment-checkbox-72", "true");
+    localStorage.setItem("augment-checkbox-29", "true");
+    localStorage.setItem("augment-checkbox-94", "true");
+    localStorage.setItem("augment-checkbox-38", "true");
+    localStorage.setItem("augment-checkbox-54", "true");
+    localStorage.setItem("augment-checkbox-31", "true");
+    localStorage.setItem("augment-checkbox-33", "true");
+    localStorage.setItem("augment-checkbox-39", "true");
+    localStorage.setItem("augment-checkbox-32", "true");
+
   }
 
   if (kuaigong_international == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-49", "true");
+    localStorage.setItem("augment-checkbox-74", "true");
+    localStorage.setItem("augment-checkbox-89", "true");
+    localStorage.setItem("augment-checkbox-5", "true");
+    localStorage.setItem("augment-checkbox-15", "true");
+    localStorage.setItem("augment-checkbox-6", "true");
+    localStorage.setItem("augment-checkbox-16", "true");
+    localStorage.setItem("augment-checkbox-7", "true");
+    localStorage.setItem("augment-checkbox-17", "true");
+    localStorage.setItem("augment-checkbox-10", "true");
+    localStorage.setItem("augment-checkbox-36", "true");
+    localStorage.setItem("augment-checkbox-9", "true");
+    localStorage.setItem("augment-checkbox-93", "true");
+    localStorage.setItem("augment-checkbox-94", "true");
+    localStorage.setItem("augment-checkbox-31", "true");
+
   }
 
   if (megacorp == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-38", "true");
+    localStorage.setItem("augment-checkbox-18", "true");
+    localStorage.setItem("augment-checkbox-1", "true");
+    localStorage.setItem("augment-checkbox-28", "true");
+    localStorage.setItem("augment-checkbox-30", "true");
+    localStorage.setItem("augment-checkbox-29", "true");
+    localStorage.setItem("augment-checkbox-31", "true");
+    localStorage.setItem("augment-checkbox-33", "true");
+    localStorage.setItem("augment-checkbox-32", "true");
+
   }
 
   if (nwo == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-65", "true");
+    localStorage.setItem("augment-checkbox-101", "true");
+    localStorage.setItem("augment-checkbox-48", "true");
+    localStorage.setItem("augment-checkbox-1", "true");
+    localStorage.setItem("augment-checkbox-28", "true");
+    localStorage.setItem("augment-checkbox-75", "true");
+    localStorage.setItem("augment-checkbox-30", "true");
+    localStorage.setItem("augment-checkbox-35", "true");
+    localStorage.setItem("augment-checkbox-93", "true");
+    localStorage.setItem("augment-checkbox-29", "true");
+    localStorage.setItem("augment-checkbox-94", "true");
+    localStorage.setItem("augment-checkbox-31", "true");
+    localStorage.setItem("augment-checkbox-33", "true");
+    localStorage.setItem("augment-checkbox-32", "true");
+
   }
 
   if (omnitek_incorporated == "true") {
     localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-69", "true");
+    localStorage.setItem("augment-checkbox-5", "true");
+    localStorage.setItem("augment-checkbox-15", "true");
+    localStorage.setItem("augment-checkbox-6", "true");
+    localStorage.setItem("augment-checkbox-16", "true");
+    localStorage.setItem("augment-checkbox-7", "true");
+    localStorage.setItem("augment-checkbox-17", "true");
+    localStorage.setItem("augment-checkbox-53", "true");
+    localStorage.setItem("augment-checkbox-10", "true");
+    localStorage.setItem("augment-checkbox-9", "true");
+    localStorage.setItem("augment-checkbox-35", "true");
+    localStorage.setItem("augment-checkbox-70", "true");
+    localStorage.setItem("augment-checkbox-31", "true");
+
   }
 
 }

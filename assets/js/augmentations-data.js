@@ -123,7 +123,7 @@ const allAugments = {
     {
       augment: 'BrachiBlades',
       ID: '13',
-      source: 'Speakers for the Dead, The Syndicate',
+      source: 'The Syndicate',
       prerequisite: '',
       price: '$90.000m',
       reputation: '12.500k rep',
