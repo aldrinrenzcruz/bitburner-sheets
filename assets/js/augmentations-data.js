@@ -1045,9 +1045,9 @@ document.querySelector('#all-augments-data').innerHTML = `
         <th scope="col">Augment</th>
         <th scope="col">Price</th>
         <th scope="col">Rep</th>
-        <th scope="col">Prereqs</th>
         <th scope="col">Effects</th>
         <th scope="col">Source</th>
+        <th scope="col">Prereqs</th>
       </tr>
     </thead>
     <tbody>
