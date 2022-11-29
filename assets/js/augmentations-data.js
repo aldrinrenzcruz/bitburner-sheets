@@ -1022,9 +1022,9 @@ const augmentsListTemplate = ({
   effects,
   description,
 }) => `
-<tr>
-  <td><input class="form-check-input me-1" type="checkbox" value="" id=""></td>
-  <td>(${ID}) ${augment}</td>
+<tr id="augment-card-${ID}">
+  <td><input class="form-check-input me-1" type="checkbox" value="" id="augment-${ID}"></td>
+  <td>${augment}</td>
   <td>${price}</td>
   <td>${reputation}</td>
   <td>${effects}</td>
@@ -1040,6 +1040,7 @@ document.querySelector('#all-augments-data').innerHTML = `
   <table class="table table-striped table-sm align-middle">
     <thead>
       <tr>
+        <th scope="col">#</th>
         <th scope="col"> </th>
         <th scope="col">Augment</th>
         <th scope="col">Price</th>

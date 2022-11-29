@@ -300,6 +300,7 @@ const factionListTemplate = ({
   ID,
 }) => `
 <tr id="faction-card-${ID}">
+  <td>${ID}</td>
   <td><input class="form-check-input me-1 faction-checkbox" type="checkbox" value="" id="faction-${ID}"></td>
   <td>${faction}</td>
   <td>${type}</td>
@@ -317,6 +318,7 @@ document.querySelector('#all-factions-data').innerHTML = `
   <table class="table table-striped table-sm align-middle">
     <thead>
       <tr>
+        <th scope="col">#</th>
         <th scope="col"> </th>
         <th scope="col">Faction</th>
         <th scope="col">Type</th>
