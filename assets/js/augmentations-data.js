@@ -1014,6 +1014,7 @@ const allAugments = {
 };
 const augmentsListTemplate = ({
   augment,
+  ID,
   prerequisite,
   source,
   price,
