@@ -1054,4 +1054,5 @@ document.querySelector('#all-augments-data').innerHTML = `
       ${augmentsTable.join("")} 
     </tbody>
   </table>
-</div>`;
+</div>
+`;
