@@ -1,24 +1,22 @@
 window.onload = () => {
+    highlightAugmentChecklist();
     highlightFactionChecklist();
-    highlights();
+    masterHighlighter();
 }
 
 window.onchange = () => {
-    saveFactionChecklist();
+    masterHighlighter();
+    highlightAugmentChecklist();
     highlightFactionChecklist();
-    highlights();
 }
 
-// Faction Checklist
-let factionCheckboxes = document.querySelectorAll('.faction-checkbox').length;
-function saveFactionChecklist() {
-    for (let i = 1; i <= factionCheckboxes; i++) {
-        let x = 'faction-' + String(i);
-        let checkbox = document.getElementById(x);
-        localStorage.setItem("faction-checkbox-" + String(i), checkbox.checked);
-    }
+// Save Faction checkbox data to localStorage
+function saveFactionChecklist(n) {
+    localStorage.setItem("faction-checkbox-" + n, document.querySelector("#faction-" + n).checked);
 }
-for (let i = 1; i <= factionCheckboxes; i++) {
+
+// Load Faction checkbox data from localStorage
+for (let i = 1; i <= document.querySelectorAll('.faction-checkbox').length; i++) {
     if (localStorage.length > 0) {
         let x = 'faction-' + String(i);
         let checked = JSON.parse(localStorage.getItem("faction-checkbox-" + String(i)));
@@ -26,8 +24,9 @@ for (let i = 1; i <= factionCheckboxes; i++) {
     }
 }
 
+// Faction Highlighter
 function highlightFactionChecklist() {
-    for (let i = 1; i <= factionCheckboxes; i++) {
+    for (let i = 1; i <= document.querySelectorAll('.faction-checkbox').length; i++) {
         if (localStorage.length > 0) {
             let checkbox = 'faction-checkbox-' + String(i);
             let card = 'faction-card-' + String(i);
@@ -40,6 +39,47 @@ function highlightFactionChecklist() {
             //     document.querySelector('#' + card).style.backgroundColor = "inherit";
             // }
         }
+    }
+}
+
+// Save Augment checkbox data to localStorage
+let augmentCheckboxes = document.querySelectorAll('.augment-checkbox').length;
+function saveAugmentChecklist(n) {
+    localStorage.setItem("augment-checkbox-" + n, document.querySelector("#augment-" + n).checked);
+}
+
+// Load Augment checkbox data from localStorage
+for (let i = 1; i <= augmentCheckboxes; i++) {
+    if (localStorage.length > 0) {
+        let x = 'augment-' + String(i);
+        let checked = JSON.parse(localStorage.getItem("augment-checkbox-" + String(i)));
+        document.getElementById(x).checked = checked;
+    }
+}
+// Augment Highlighter
+function highlightAugmentChecklist() {
+    for (let i = 1; i <= augmentCheckboxes; i++) {
+        if (localStorage.length > 0) {
+            let checkbox = 'augment-checkbox-' + String(i);
+            let card = 'augment-card-' + String(i);
+            let data = `${localStorage.getItem(checkbox)}`
+            let bg = (data == 'true') ? "#ffff70" : "inherit";
+            document.querySelector('#' + card).style.backgroundColor = bg;
+            // if (data == 'true') {
+            //     document.querySelector('#' + card).style.backgroundColor = "yellow";
+            // } else {
+            //     document.querySelector('#' + card).style.backgroundColor = "inherit";
+            // }
+        }
+    }
+}
+
+// Clear Faction Checklists
+function clearFactionChecklist() {
+    if (confirm("Are you sure you want to delete checklist data?") == true) {
+        localStorage.clear();
+        location.reload();
+        // TODO: Make a batter Clear function
     }
 }
 
@@ -78,19 +118,6 @@ $("#faction-cards-filter").keyup(function () {
         }
     });
 });
-
-// Clear Faction Checklists
-function clearFactionChecklist() {
-    if (confirm("Are you sure you want to delete checklist data?") == true) {
-        for (let i = 1; i <= factionCheckboxes; i++) {
-            let x = 'faction-' + String(i);
-            let checkbox = document.getElementById(x);
-            checkbox.checked = false;
-            saveFactionChecklist();
-            highlightFactionChecklist();
-        }
-    }
-}
 
 //Prevent links from being dragged
 $('a').mousedown(function (e) {

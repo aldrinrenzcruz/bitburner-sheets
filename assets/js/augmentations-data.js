@@ -1023,7 +1023,8 @@ const augmentsListTemplate = ({
   description,
 }) => `
 <tr id="augment-card-${ID}">
-  <td><input class="form-check-input me-1 augment-checkbox" type="checkbox" value="" id="augment-${ID}"></td>
+  <td>${ID}</td>
+  <td><input class="form-check-input me-1 augment-checkbox" id="augment-${ID}" onchange="saveAugmentChecklist(${ID});" type="checkbox" value=""></td>
   <td>${augment}</td>
   <td>${price}</td>
   <td>${reputation}</td>

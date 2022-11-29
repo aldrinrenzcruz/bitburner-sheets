@@ -301,7 +301,7 @@ const factionListTemplate = ({
 }) => `
 <tr id="faction-card-${ID}">
   <td>${ID}</td>
-  <td><input class="form-check-input me-1 faction-checkbox" type="checkbox" value="" id="faction-${ID}"></td>
+  <td><input class="form-check-input me-1 faction-checkbox" id="faction-${ID}" onchange="saveFactionChecklist(${ID});" type="checkbox" value=""></td>
   <td>${faction}</td>
   <td>${type}</td>
   <td>${requirements}</td>
