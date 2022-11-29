@@ -33,7 +33,7 @@ function highlightFactionChecklist() {
             let checkbox = 'faction-checkbox-' + String(i);
             let card = 'faction-card-' + String(i);
             let data = `${localStorage.getItem(checkbox)}`
-            let bg = (data == 'true') ? "#ffffa3" : "inherit";
+            let bg = (data == 'true') ? "#ffff92" : "inherit";
             document.querySelector('#' + card).style.backgroundColor = bg;
             // if (data == 'true') {
             //     document.querySelector('#' + card).style.backgroundColor = "yellow";
@@ -67,7 +67,7 @@ function highlightAugmentChecklist() {
             let checkbox = 'augment-checkbox-' + String(i);
             let card = 'augment-card-' + String(i);
             let data = `${localStorage.getItem(checkbox)}`
-            let bg = (data == 'true') ? "#ffffa3" : "inherit";
+            let bg = (data == 'true') ? "#ffff70" : "inherit";
             document.querySelector('#' + card).style.backgroundColor = bg;
             // if (data == 'true') {
             //     document.querySelector('#' + card).style.backgroundColor = "yellow";
