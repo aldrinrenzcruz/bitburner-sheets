@@ -1,11 +1,12 @@
 window.onload = () => {
     highlightFactionChecklist();
+    highlights();
 }
 
 window.onchange = () => {
     saveFactionChecklist();
     highlightFactionChecklist();
-    allHighlighter();
+    highlights();
 }
 
 // Faction Checklist

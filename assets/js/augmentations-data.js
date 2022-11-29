@@ -2,6 +2,7 @@ const allAugments = {
   list: [
     {
       augment: 'ADR-V1 Pheromone Gene',
+      ID: '1',
       source: 'Tian Di Hui, MegaCorp, The Syndicate',
       prerequisite: '',
       price: '$17.500m',
@@ -11,6 +12,7 @@ const allAugments = {
     },
     {
       augment: 'ADR-V2 Pheromone Gene',
+      ID: '2',
       source: 'Bachman & Associates, Bachman & Associates',
       prerequisite: '',
       price: '$550.000m',
@@ -20,6 +22,7 @@ const allAugments = {
     },
     {
       augment: 'Artificial Bio-neural Network Implant',
+      ID: '3',
       source: 'Bitrunners, Fulcrum Secret Technologies',
       prerequisite: '',
       price: '$3.000b',
@@ -29,6 +32,7 @@ const allAugments = {
     },
     {
       augment: 'Artificial Synaptic Potentiation',
+      ID: '4',
       source: 'NiteSec, The Black Hand',
       prerequisite: '',
       price: '$80.000m',
@@ -38,6 +42,7 @@ const allAugments = {
     },
     {
       augment: 'Augmented Targeting I',
+      ID: '5',
       source: 'Sector-12, Ishima, Slum Snakes, The Dark Army, The Syndicate',
       prerequisite: '',
       price: '$15.000m',
@@ -47,6 +52,7 @@ const allAugments = {
     },
     {
       augment: 'Augmented Targeting II',
+      ID: '6',
       source: 'Sector-12, The Dark Army, The Syndicate',
       prerequisite: '',
       price: '$42.500m',
@@ -56,6 +62,7 @@ const allAugments = {
     },
     {
       augment: 'Augmented Targeting III',
+      ID: '7',
       source: 'The Dark Army, The Syndicate, The Covenant',
       prerequisite: '',
       price: '$115.000m',
@@ -65,6 +72,7 @@ const allAugments = {
     },
     {
       augment: 'Bionic Arms',
+      ID: '8',
       source: 'Tetrads',
       prerequisite: '',
       price: '$275.000m',
@@ -74,6 +82,7 @@ const allAugments = {
     },
     {
       augment: 'Bionic Legs',
+      ID: '9',
       source: 'KuaiGong International, Blade Industries, OmniTek Incorporated, Speakers for the Dead, The Syndicate',
       prerequisite: '',
       price: '$375.000m',
@@ -83,6 +92,7 @@ const allAugments = {
     },
     {
       augment: 'Bionic Spine',
+      ID: '10',
       source: 'KuaiGong International, Blade Industries, OmniTek Incorporated, Speakers for the Dead, The Syndicate',
       prerequisite: '',
       price: '$125.000m',
@@ -92,6 +102,7 @@ const allAugments = {
     },
     {
       augment: 'BitRunners Neurolink ',
+      ID: '11',
       source: 'Bitrunners',
       prerequisite: '',
       price: '$4.375b',
@@ -101,6 +112,7 @@ const allAugments = {
     },
     {
       augment: 'BitWire',
+      ID: '12',
       source: 'CyberSec, NiteSec',
       prerequisite: '',
       price: '$10.000m',
@@ -110,6 +122,7 @@ const allAugments = {
     },
     {
       augment: 'BrachiBlades',
+      ID: '13',
       source: 'Speakers for the Dead, The Syndicate',
       prerequisite: '',
       price: '$90.000m',
@@ -119,6 +132,7 @@ const allAugments = {
     },
     {
       augment: 'CashRoot Starter Kit',
+      ID: '14',
       source: 'Sector-12',
       prerequisite: '',
       price: '$125.000m',
@@ -128,6 +142,7 @@ const allAugments = {
     },
     {
       augment: 'Combat Rib I',
+      ID: '15',
       source: 'Volhaven, Ishima, KuaiGong International, Blade Industries, OmniTek Incorporated, Slum Snakes, The Dark Army, The Syndicate',
       prerequisite: '',
       price: '$23.750m',
@@ -137,6 +152,7 @@ const allAugments = {
     },
     {
       augment: 'Combat Rib II',
+      ID: '16',
       source: 'Volhaven, KuaiGong International, Blade Industries, OmniTek Incorporated, The Dark Army, The Syndicate',
       prerequisite: '',
       price: '$65.000m',
@@ -146,6 +162,7 @@ const allAugments = {
     },
     {
       augment: 'Combat Rib III',
+      ID: '17',
       source: 'KuaiGong International, Blade Industries, OmniTek Incorporated, The Dark Army, The Syndicate, The Covenant',
       prerequisite: '',
       price: '$120.000m',
@@ -155,6 +172,7 @@ const allAugments = {
     },
     {
       augment: 'CordiARC Fusion Reactor',
+      ID: '18',
       source: 'MegaCorp',
       prerequisite: '',
       price: '$5.000b',
@@ -164,6 +182,7 @@ const allAugments = {
     },
     {
       augment: 'Cranial Signal Processors - Gen I',
+      ID: '19',
       source: 'CyberSec, NiteSec',
       prerequisite: '',
       price: '$70.000m',
@@ -173,6 +192,7 @@ const allAugments = {
     },
     {
       augment: 'Cranial Signal Processors - Gen II',
+      ID: '20',
       source: 'CyberSec, NiteSec',
       prerequisite: '',
       price: '$125.000m',
@@ -182,6 +202,7 @@ const allAugments = {
     },
     {
       augment: 'Cranial Signal Processors - Gen III',
+      ID: '21',
       source: 'NiteSec, The Black Hand, Bitrunners',
       prerequisite: '',
       price: '$550.000m',
@@ -191,6 +212,7 @@ const allAugments = {
     },
     {
       augment: 'Cranial Signal Processors - Gen IV',
+      ID: '22',
       source: 'The Black Hand, Bitrunners',
       prerequisite: '',
       price: '$1.100b',
@@ -200,6 +222,7 @@ const allAugments = {
     },
     {
       augment: 'Cranial Signal Processors - Gen V ',
+      ID: '23',
       source: 'Bitrunners',
       prerequisite: '',
       price: '$2.250b',
@@ -209,6 +232,7 @@ const allAugments = {
     },
     {
       augment: 'CRTX42-AA Gene Modification',
+      ID: '24',
       source: 'NiteSec',
       prerequisite: '',
       price: '$225.000m',
@@ -218,6 +242,7 @@ const allAugments = {
     },
     {
       augment: 'DataJack',
+      ID: '25',
       source: 'NiteSec, The Black Hand, Bitrunners, Chongqing, New Tokyo',
       prerequisite: '',
       price: '$450.000m',
@@ -227,6 +252,7 @@ const allAugments = {
     },
     {
       augment: 'DermaForce Particle Barrier',
+      ID: '26',
       source: 'Volhaven',
       prerequisite: '',
       price: '$50.000m',
@@ -236,6 +262,7 @@ const allAugments = {
     },
     {
       augment: 'ECorp HVMind Implant',
+      ID: '27',
       source: 'ECorp',
       prerequisite: '',
       price: '$5.500b',
@@ -245,6 +272,7 @@ const allAugments = {
     },
     {
       augment: 'Embedded Netburner Module',
+      ID: '28',
       source: 'NiteSec, The Black Hand, Bitrunners, ECorp, MegaCorp, NWO, Blade Industries, Fulcrum Secret Technologies',
       prerequisite: '',
       price: '$250.000m',
@@ -254,6 +282,7 @@ const allAugments = {
     },
     {
       augment: 'Embedded Netburner Module Analyze Engine',
+      ID: '29',
       source: 'ECorp, MegaCorp, NWO, Fulcrum Secret Technologies, Daedalus, The Covenant, Illuminati',
       prerequisite: '',
       price: '$6.000b',
@@ -263,6 +292,7 @@ const allAugments = {
     },
     {
       augment: 'Embedded Netburner Module Core Implant',
+      ID: '30',
       source: 'The Black Hand, Bitrunners, ECorp, MegaCorp, NWO, Blade Industries, Fulcrum Secret Technologies',
       prerequisite: '',
       price: '$2.500b',
@@ -272,6 +302,7 @@ const allAugments = {
     },
     {
       augment: 'Embedded Netburner Module Core V2 Upgrade',
+      ID: '31',
       source: 'Bitrunners, ECorp, MegaCorp, KuaiGong International, NWO, Blade Industries, OmniTek Incorporated, Fulcrum Secret Technologies',
       prerequisite: '',
       price: '$4.500b',
@@ -281,6 +312,7 @@ const allAugments = {
     },
     {
       augment: 'Embedded Netburner Module Core V3 Upgrade',
+      ID: '32',
       source: 'ECorp, MegaCorp, NWO, Fulcrum Secret Technologies, Daedalus, The Covenant, Illuminati',
       prerequisite: '',
       price: '$7.500b',
@@ -290,6 +322,7 @@ const allAugments = {
     },
     {
       augment: 'Embedded Netburner Module Direct Memory Access Upgrade',
+      ID: '33',
       source: 'ECorp, MegaCorp, NWO, Fulcrum Secret Technologies, Daedalus, The Covenant, Illuminati',
       prerequisite: '',
       price: '$7.000b',
@@ -299,6 +332,7 @@ const allAugments = {
     },
     {
       augment: 'Enhanced Myelin Sheathing',
+      ID: '34',
       source: 'The Black Hand, Bitrunners, Fulcrum Secret Technologies',
       prerequisite: '',
       price: '$1.375b',
@@ -308,6 +342,7 @@ const allAugments = {
     },
     {
       augment: 'Enhanced Social Interaction Implant',
+      ID: '35',
       source: 'Four Sigma, NWO, OmniTek Incorporated, Bachman & Associates, Clarke Incorporated',
       prerequisite: '',
       price: '$1.375b',
@@ -317,6 +352,7 @@ const allAugments = {
     },
     {
       augment: 'FocusWire',
+      ID: '36',
       source: 'KuaiGong International, Four Sigma, Bachman & Associates, Clarke Incorporated',
       prerequisite: '',
       price: '$900.000m',
@@ -326,6 +362,7 @@ const allAugments = {
     },
     {
       augment: 'Graphene Bionic Arms Upgrade',
+      ID: '37',
       source: 'The Dark Army',
       prerequisite: '',
       price: '$3.750b',
@@ -335,6 +372,7 @@ const allAugments = {
     },
     {
       augment: 'Graphene Bionic Legs Upgrade',
+      ID: '38',
       source: 'ECorp, MegaCorp, Fulcrum Secret Technologies',
       prerequisite: '',
       price: '$4.500b',
@@ -344,6 +382,7 @@ const allAugments = {
     },
     {
       augment: 'Graphene Bionic Spine Upgrade',
+      ID: '39',
       source: 'ECorp, Fulcrum Secret Technologies',
       prerequisite: '',
       price: '$6.000b',
@@ -353,6 +392,7 @@ const allAugments = {
     },
     {
       augment: 'Graphene Bone Lacings',
+      ID: '40',
       source: 'Fulcrum Secret Technologies, The Covenant',
       prerequisite: '',
       price: '$4.250b',
@@ -362,6 +402,7 @@ const allAugments = {
     },
     {
       augment: 'Graphene BrachiBlades Upgrade',
+      ID: '41',
       source: 'Speakers for the Dead',
       prerequisite: '',
       price: '$2.500b',
@@ -371,6 +412,7 @@ const allAugments = {
     },
     {
       augment: 'Hacknet Node Cache Architecture Neural-Upload',
+      ID: '42',
       source: 'Netburners',
       prerequisite: '',
       price: '$5.500m',
@@ -380,6 +422,7 @@ const allAugments = {
     },
     {
       augment: 'Hacknet Node Core Direct-Neural Interface',
+      ID: '43',
       source: 'Netburners',
       prerequisite: '',
       price: '$60.000m',
@@ -389,6 +432,7 @@ const allAugments = {
     },
     {
       augment: 'Hacknet Node CPU Architecture Neural-Upload',
+      ID: '44',
       source: 'Netburners',
       prerequisite: '',
       price: '$11.000m',
@@ -398,6 +442,7 @@ const allAugments = {
     },
     {
       augment: 'Hacknet Node Kernel Direct-Neural Interface',
+      ID: '45',
       source: 'Netburners',
       prerequisite: '',
       price: '$40.000m',
@@ -407,6 +452,7 @@ const allAugments = {
     },
     {
       augment: 'Hacknet Node NIC Architecture Neural-Upload',
+      ID: '46',
       source: 'Netburners',
       prerequisite: '',
       price: '$4.500m',
@@ -416,6 +462,7 @@ const allAugments = {
     },
     {
       augment: 'HemoRecirculator',
+      ID: '47',
       source: 'Tetrads, The Dark Army, The Syndicate',
       prerequisite: '',
       price: '$45.000m',
@@ -425,6 +472,7 @@ const allAugments = {
     },
     {
       augment: 'Hydroflame Left Arm',
+      ID: '48',
       source: 'NWO',
       prerequisite: '',
       price: '$2.500t',
@@ -434,6 +482,7 @@ const allAugments = {
     },
     {
       augment: 'HyperSight Corneal Implant',
+      ID: '49',
       source: 'KuaiGong International, Blade Industries',
       prerequisite: '',
       price: '$2.750b',
@@ -443,6 +492,7 @@ const allAugments = {
     },
     {
       augment: 'INFRARET Enhancement',
+      ID: '50',
       source: 'Ishima',
       prerequisite: '',
       price: '$30.000m',
@@ -452,6 +502,7 @@ const allAugments = {
     },
     {
       augment: 'LuminCloaking-V1 Skin Implant',
+      ID: '51',
       source: 'Slum Snakes, Tetrads',
       prerequisite: '',
       price: 'TODO',
@@ -461,6 +512,7 @@ const allAugments = {
     },
     {
       augment: 'LuminCloaking-V2 Skin Implant',
+      ID: '52',
       source: 'Slum Snakes, Tetrads',
       prerequisite: '',
       price: '$30.000m',
@@ -470,6 +522,7 @@ const allAugments = {
     },
     {
       augment: 'Nanofiber Weave',
+      ID: '53',
       source: 'Tian Di Hui, Blade Industries, OmniTek Incorporated, Fulcrum Secret Technologies, Speakers for the Dead, The Dark Army, The Syndicate',
       prerequisite: '',
       price: '$125.000m',
@@ -479,6 +532,7 @@ const allAugments = {
     },
     {
       augment: 'NEMEAN Subdermal Weave',
+      ID: '54',
       source: 'Fulcrum Secret Technologies, The Syndicate, Daedalus, The Covenant, Illuminati',
       prerequisite: '',
       price: '$3.250b',
@@ -488,6 +542,7 @@ const allAugments = {
     },
     {
       augment: 'Neotra',
+      ID: '55',
       source: 'Blade Industries',
       prerequisite: '',
       price: '$2.875b',
@@ -497,6 +552,7 @@ const allAugments = {
     },
     {
       augment: 'Neural Accelerator',
+      ID: '56',
       source: 'Bitrunners',
       prerequisite: '',
       price: '$1.750b',
@@ -506,6 +562,7 @@ const allAugments = {
     },
     {
       augment: 'Neural-Retention Enhancement',
+      ID: '57',
       source: 'NiteSec',
       prerequisite: '',
       price: '$250.000m',
@@ -515,6 +572,7 @@ const allAugments = {
     },
     {
       augment: 'Neuralstimulator',
+      ID: '58',
       source: 'The Black Hand, Sector-12, Aevum, Volhaven, Chongqing, New Tokyo, Ishima, Four Sigma, Bachman & Associates, Clarke Incorporated',
       prerequisite: '',
       price: '$3.00b',
@@ -524,6 +582,7 @@ const allAugments = {
     },
     {
       augment: 'Neuregen Gene Modification',
+      ID: '59',
       source: 'Chongqing',
       prerequisite: '',
       price: '$375.000m',
@@ -533,6 +592,7 @@ const allAugments = {
     },
     {
       augment: 'NeuroFlux Governor',
+      ID: '60',
       source: 'All Factions except SoA',
       prerequisite: '',
       price: '$750.000k',
@@ -542,6 +602,7 @@ const allAugments = {
     },
     {
       augment: 'Neuronal Densification',
+      ID: '61',
       source: 'Clarke Incorporated',
       prerequisite: '',
       price: '$1.375b',
@@ -551,6 +612,7 @@ const allAugments = {
     },
     {
       augment: 'Neuroreceptor Management Implant',
+      ID: '62',
       source: 'Tian Di Hui',
       prerequisite: '',
       price: '$550.000m',
@@ -560,6 +622,7 @@ const allAugments = {
     },
     {
       augment: 'Neurotrainer I',
+      ID: '63',
       source: 'CyberSec, Aevum',
       prerequisite: '',
       price: '$4.000m',
@@ -569,6 +632,7 @@ const allAugments = {
     },
     {
       augment: 'Neurotrainer II',
+      ID: '64',
       source: 'NiteSec, Bitrunners',
       prerequisite: '',
       price: '$45.000m',
@@ -578,6 +642,7 @@ const allAugments = {
     },
     {
       augment: 'Neurotrainer III',
+      ID: '65',
       source: 'Four Sigma, NWO',
       prerequisite: '',
       price: '$130.000m',
@@ -587,6 +652,7 @@ const allAugments = {
     },
     {
       augment: 'nextSENS Gene Modification',
+      ID: '66',
       source: 'Clarke Incorporated',
       prerequisite: '',
       price: '$1.925b',
@@ -596,6 +662,7 @@ const allAugments = {
     },
     {
       augment: 'Nuoptimal Nootropic Injector Implant',
+      ID: '67',
       source: 'Tian Di Hui, Volhaven, Chongqing, New Tokyo, Four Sigma, Bachman & Associates, Clarke Incorporated',
       prerequisite: '',
       price: '$20.000m',
@@ -605,6 +672,7 @@ const allAugments = {
     },
     {
       augment: 'NutriGen Implant',
+      ID: '68',
       source: 'New Tokyo',
       prerequisite: '',
       price: '$2.500m',
@@ -614,6 +682,7 @@ const allAugments = {
     },
     {
       augment: 'OmniTek InfoLoad',
+      ID: '69',
       source: 'OmniTek Incorporated',
       prerequisite: '',
       price: '$2.875b',
@@ -623,6 +692,7 @@ const allAugments = {
     },
     {
       augment: 'PC Direct-Neural Interface',
+      ID: '70',
       source: 'ECorp, Four Sigma, Blade Industries, OmniTek Incorporated',
       prerequisite: '',
       price: '$3.750b',
@@ -632,6 +702,7 @@ const allAugments = {
     },
     {
       augment: 'PC Direct-Neural Interface NeuroNet Injector',
+      ID: '71',
       source: 'Fulcrum Secret Technologies',
       prerequisite: '',
       price: '$7.500b',
@@ -641,6 +712,7 @@ const allAugments = {
     },
     {
       augment: 'PC Direct-Neural Interface Optimization Submodule',
+      ID: '72',
       source: 'ECorp, Blade Industries, Fulcrum Secret Technologies',
       prerequisite: '',
       price: '$4.500b',
@@ -650,6 +722,7 @@ const allAugments = {
     },
     {
       augment: 'PCMatrix',
+      ID: '73',
       source: 'Aevum',
       prerequisite: '',
       price: '$2.000b',
@@ -659,6 +732,7 @@ const allAugments = {
     },
     {
       augment: 'Photosynthetic Cells',
+      ID: '74',
       source: 'KuaiGong International',
       prerequisite: '',
       price: '$2.750b',
@@ -668,6 +742,7 @@ const allAugments = {
     },
     {
       augment: 'Power Recirculation Core',
+      ID: '75',
       source: 'NWO, Tetrads, The Dark Army, The Syndicate',
       prerequisite: '',
       price: '$180.000m',
@@ -677,6 +752,7 @@ const allAugments = {
     },
     {
       augment: 'QLink',
+      ID: '76',
       source: 'Illuminati',
       prerequisite: '',
       price: '$25.000t',
@@ -686,6 +762,7 @@ const allAugments = {
     },
     {
       augment: 'SmartJaw',
+      ID: '77',
       source: 'Bachman & Associates',
       prerequisite: '',
       price: '$2.750b',
@@ -695,6 +772,7 @@ const allAugments = {
     },
     {
       augment: 'SmartSonar Implant',
+      ID: '78',
       source: 'Slum Snakes',
       prerequisite: '',
       price: '$75.000m',
@@ -704,6 +782,7 @@ const allAugments = {
     },
     {
       augment: 'SoA - Beauty of Aphrodite',
+      ID: '79',
       source: 'Shadows of Anarchy',
       prerequisite: '',
       price: '$1.000m',
@@ -713,6 +792,7 @@ const allAugments = {
     },
     {
       augment: 'SoA - Chaos of Dionysus',
+      ID: '80',
       source: 'Shadows of Anarchy',
       prerequisite: '',
       price: '$1.000m',
@@ -722,6 +802,7 @@ const allAugments = {
     },
     {
       augment: 'SoA - Flood of Poseidon',
+      ID: '81',
       source: 'Shadows of Anarchy',
       prerequisite: '',
       price: '$1.000m',
@@ -731,6 +812,7 @@ const allAugments = {
     },
     {
       augment: 'SoA - Hunt of Artemis',
+      ID: '82',
       source: 'Shadows of Anarchy',
       prerequisite: '',
       price: '$1.000m',
@@ -740,6 +822,7 @@ const allAugments = {
     },
     {
       augment: 'SoA - Knowledge of Apollo',
+      ID: '83',
       source: 'Shadows of Anarchy',
       prerequisite: '',
       price: '$1.000m',
@@ -749,6 +832,7 @@ const allAugments = {
     },
     {
       augment: 'SoA - Might of Ares',
+      ID: '84',
       source: 'Shadows of Anarchy',
       prerequisite: '',
       price: '$1.000m',
@@ -758,6 +842,7 @@ const allAugments = {
     },
     {
       augment: 'SoA - phyzical WKS harmonizer',
+      ID: '85',
       source: 'Shadows of Anarchy',
       prerequisite: '',
       price: '$1.000m',
@@ -767,6 +852,7 @@ const allAugments = {
     },
     {
       augment: 'SoA - Trickery of Hermes',
+      ID: '86',
       source: 'Shadows of Anarchy',
       prerequisite: '',
       price: '$1.000m',
@@ -776,6 +862,7 @@ const allAugments = {
     },
     {
       augment: 'SoA - Wisdom of Athena',
+      ID: '87',
       source: 'Shadows of Anarchy',
       prerequisite: '',
       price: '$1.000m',
@@ -785,6 +872,7 @@ const allAugments = {
     },
     {
       augment: 'Social Negotiation Assistant (S.N.A)',
+      ID: '88',
       source: 'Tian Di Hui',
       prerequisite: '',
       price: '$30.000m',
@@ -794,6 +882,7 @@ const allAugments = {
     },
     {
       augment: 'Speech Enhancement',
+      ID: '89',
       source: 'Tian Di Hui, KuaiGong International, Four Sigma, Bachman & Associates, Clarke Incorporated, Speakers for the Dead',
       prerequisite: '',
       price: '$12.500m',
@@ -803,6 +892,7 @@ const allAugments = {
     },
     {
       augment: 'Speech Processor Implant',
+      ID: '90',
       source: 'Tian Di Hui, Sector-12, Aevum, Volhaven, Chongqing, New Tokyo, Ishima, Silhouette',
       prerequisite: '',
       price: '$50.000m',
@@ -812,6 +902,7 @@ const allAugments = {
     },
     {
       augment: 'SPTN-97 Gene Modification',
+      ID: '91',
       source: 'The Covenant',
       prerequisite: '',
       price: '$4.875b',
@@ -821,6 +912,7 @@ const allAugments = {
     },
     {
       augment: 'Synaptic Enhancement Implant',
+      ID: '92',
       source: 'CyberSec, Aevum',
       prerequisite: '',
       price: '$7.500m',
@@ -830,6 +922,7 @@ const allAugments = {
     },
     {
       augment: 'Synfibril Muscle',
+      ID: '93',
       source: 'KuaiGong International, NWO, Blade Industries, Fulcrum Secret Technologies, Speakers for the Dead, Daedalus, The Covenant, Illuminati',
       prerequisite: '',
       price: '$1.125b',
@@ -839,6 +932,7 @@ const allAugments = {
     },
     {
       augment: 'Synthetic Heart',
+      ID: '94',
       source: 'KuaiGong International, NWO, Fulcrum Secret Technologies, Speakers for the Dead, Daedalus, The Covenant, Illuminati',
       prerequisite: '',
       price: '$2.875b',
@@ -848,6 +942,7 @@ const allAugments = {
     },
     {
       augment: 'The Black Hand',
+      ID: '95',
       source: 'The Black Hand',
       prerequisite: '',
       price: '$550.000m',
@@ -857,6 +952,7 @@ const allAugments = {
     },
     {
       augment: 'The Red Pill',
+      ID: '96',
       source: 'Daedalus',
       prerequisite: '',
       price: '0',
@@ -866,6 +962,7 @@ const allAugments = {
     },
     {
       augment: 'The Shadow\'s Simulacrum',
+      ID: '97',
       source: 'Speakers for the Dead, The Dark Army, The Syndicate',
       prerequisite: '',
       price: '$400.000m',
@@ -875,6 +972,7 @@ const allAugments = {
     },
     {
       augment: 'TITN-41 Gene-Modification Injection',
+      ID: '98',
       source: 'Silhouette',
       prerequisite: '',
       price: '$190.000m',
@@ -884,6 +982,7 @@ const allAugments = {
     },
     {
       augment: 'Unstable Circadian Modulator',
+      ID: '99',
       source: 'Speakers for the Dead',
       prerequisite: '',
       price: '$5.000b',
@@ -893,6 +992,7 @@ const allAugments = {
     },
     {
       augment: 'Wired Reflexes',
+      ID: '100',
       source: 'Tian Di Hui, Sector-12, Aevum, Volhaven, Ishima, Slum Snakes, Speakers for the Dead, The Dark Army, The Syndicate',
       prerequisite: '',
       price: '$2.500m',
@@ -902,6 +1002,7 @@ const allAugments = {
     },
     {
       augment: 'Xanipher',
+      ID: '101',
       source: 'NWO',
       prerequisite: '',
       price: '$4.250b',
@@ -922,7 +1023,7 @@ const augmentsListTemplate = ({
 }) => `
 <tr>
   <td><input class="form-check-input me-1" type="checkbox" value="" id=""></td>
-  <td>${augment}</td>
+  <td>(${ID}) ${augment}</td>
   <td>${price}</td>
   <td>${reputation}</td>
   <td>${effects}</td>
