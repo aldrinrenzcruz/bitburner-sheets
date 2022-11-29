@@ -299,15 +299,15 @@ const factionListTemplate = ({
   description,
   checklistID,
 }) => `
-      <tr id="${checklistID.replace('faction', 'faction-card')}">
-        <td><input class="form-check-input me-1 faction-checkbox" type="checkbox" value="" id="${checklistID}"></td>
-        <td>${faction}</td>
-        <td>${type}</td>
-        <td>${requirements}</td>
-        <td>${work.replace(' Contracts', '').replaceAll(' Work', '').replace('Shadows of Anarchy can only gain reputation by infiltrating.', 'Infiltration')}</td>
-        <td>${augmentations}</td>
-        <td hidden>F: ${faction}</td>
-      </tr>
+<tr id="${checklistID.replace('faction', 'faction-card')}">
+  <td><input class="form-check-input me-1 faction-checkbox" type="checkbox" value="" id="${checklistID}"></td>
+  <td>${faction}</td>
+  <td>${type}</td>
+  <td>${requirements}</td>
+  <td>${work.replace(' Contracts', '').replaceAll(' Work', '').replace('Shadows of Anarchy can only gain reputation by infiltrating.', 'Infiltration')}</td>
+  <td>${augmentations}</td>
+  <td hidden>F: ${faction}</td>
+</tr>
 `;
 
 const factionTable = allFactions.list.map(factionListTemplate);
@@ -331,16 +331,3 @@ document.querySelector('#all-factions-data').innerHTML = `
   </table>
 </div>
 `;
-
-// const factionChecklistTemplate = ({
-//   faction,
-// }) => `
-
-// <li class="list-group-item border-0">
-// <label class="form-check-label" for="">${faction}</label>
-// </li>
-// `;
-
-// const factionChecklist = allFactions.list.map(factionChecklistTemplate);
-
-// document.querySelector('#all-factions-checklist').innerHTML = `<ul class="list-group rounded-0">${factionChecklist.join("")}</ul>`

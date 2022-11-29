@@ -920,17 +920,15 @@ const augmentsListTemplate = ({
   effects,
   description,
 }) => `
-
 <tr>
-<td><input class="form-check-input me-1" type="checkbox" value="" id=""></td>
-<td>${augment}</td>
-<td>${price}</td>
-<td>${reputation}</td>
-<td>${effects}</td>
-<td>${source}</td>
-<td hidden>F: ${augment}</td>
+  <td><input class="form-check-input me-1" type="checkbox" value="" id=""></td>
+  <td>${augment}</td>
+  <td>${price}</td>
+  <td>${reputation}</td>
+  <td>${effects}</td>
+  <td>${source}</td>
+  <td hidden>F: ${augment}</td>
 </tr>
-
 `;
 
 const augmentsTable = allAugments.list.map(augmentsListTemplate);
@@ -953,16 +951,3 @@ document.querySelector('#all-augments-data').innerHTML = `
     </tbody>
   </table>
 </div>`;
-
-// const augmentsChecklistTemplate = ({
-//   augment,
-// }) => `
-
-// <li class="list-group-item border-0">
-// <label class="form-check-label" for="">${augment}</label>
-// </li>
-// `;
-
-// const augmentsChecklist = allAugments.list.map(augmentsChecklistTemplate);
-
-// document.querySelector('#all-augments-checklist').innerHTML = `<ul class="list-group rounded-0">${augmentsChecklist.join("")}</ul>`
