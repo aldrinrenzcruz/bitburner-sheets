@@ -533,7 +533,7 @@ const allAugments = {
     },
     {
       augment: 'NeuroFlux Governor',
-      source: 'Available in All Factions',
+      source: 'All Factions except SoA',
       prerequisite: '',
       price: '$750.000k',
       reputation: '500.000 rep',
