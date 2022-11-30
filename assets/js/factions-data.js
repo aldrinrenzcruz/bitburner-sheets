@@ -43,7 +43,7 @@ const allFactions = {
       requirements: 'Install a backdoor on the run4theh111z server',
       augmentations: 'DataJack, Cranial Signal Processors - Gen IV, Enhanced Myelin Sheathing, Neural Accelerator, Cranial Signal Processors - Gen V, Embedded Netburner Module Core Implant, Artificial Bio-neural Network Implant, BitRunners Neurolink, Embedded Netburner Module Core V2 Upgrade, Neurotrainer II, Embedded Netburner Module, Cranial Signal Processors - Gen III, NeuroFlux Governor',
       work: 'Hacking Contracts',
-      description: 'Our entire lives are controlled by bits. All of our actions, our thoughts, our personal information. It\'s all transformed into bits, stored in bits, communicated through bits. It’s impossible for any person to move, to live, to operate at any level without the use of bits. And when a person moves, lives, and operates, they leave behind their bits, mere traces of seemingly meaningless fragments of information. But these bits can be reconstructed. Transformed. Used. <br>Those who run the bits, run the world.',
+      description: 'Our entire lives are controlled by bits. All of our actions, our thoughts, our personal information. It\'s all transformed into bits, stored in bits, communicated through bits. It’s impossible for any person to move, to live, to operate at any level without the use of bits. And when a person moves, lives, and operates, they leave behind their bits, mere traces of seemingly meaningless fragments of information. But these bits can be reconstructed. Transformed. Used. Those who run the bits, run the world.',
     },
     {
       faction: 'NiteSec',
@@ -61,7 +61,7 @@ const allFactions = {
       requirements: 'Install a backdoor on the I.I.I.I server',
       augmentations: 'DataJack, The Black Hand, Cranial Signal Processors - Gen IV, Enhanced Myelin Sheathing, Embedded Netburner Module Core Implant, Neuralstimulator, Artificial Synaptic Potentiation, Embedded Netburner Module, Cranial Signal Processors - Gen III, NeuroFlux Governor',
       work: 'Hacking Contracts, Field Work',
-      description: 'The world, so afraid of strong government, now has no government. Only power - Digital power. Financial power. Technological power. And those at the top rule with an invisible hand. They built a society where the rich get richer, and everyone else suffers. <br>So much pain. So many lives. Their darkness must end.',
+      description: 'The world, so afraid of strong government, now has no government. Only power - Digital power. Financial power. Technological power. And those at the top rule with an invisible hand. They built a society where the rich get richer, and everyone else suffers. So much pain. So many lives. Their darkness must end.',
     },
     {
       faction: 'Aevum',
@@ -142,7 +142,7 @@ const allFactions = {
       requirements: '20 Augmentations, $75b, Hacking Level of 850, All Combat Stats of 850',
       augmentations: 'Graphene Bone Lacings, SPTN-97 Gene Modification, Embedded Netburner Module Core V3 Upgrade, Augmented Targeting III, Combat Rib III, Synfibril Muscle, Embedded Netburner Module Analyze Engine, Synthetic Heart, NEMEAN Subdermal Weave, Embedded Netburner Module Direct Memory Access Upgrade, NeuroFlux Governor',
       work: 'Hacking Contracts, Field Work',
-      description: 'Surrender yourself. Give up your empty individuality to become part of something great, something eternal. Become a slave. Submit your mind, body, and soul. Only then can you set yourself free. <br>Only then can you discover immortality.',
+      description: 'Surrender yourself. Give up your empty individuality to become part of something great, something eternal. Become a slave. Submit your mind, body, and soul. Only then can you set yourself free. Only then can you discover immortality.',
     },
     {
       faction: 'Silhouette',

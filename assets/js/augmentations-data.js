@@ -1023,7 +1023,6 @@ const augmentsListTemplate = ({
   effects,
   description,
 }) => `
-
 <tr id="augment-card-${ID}">
   <td><input class="form-check-input me-1 augment-checkbox" id="augment-${ID}" onchange="saveAugmentChecklist(${ID});" type="checkbox" value=""></td>
   <td>${augment}</td>
