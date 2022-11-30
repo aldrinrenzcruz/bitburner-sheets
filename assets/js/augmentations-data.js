@@ -1037,7 +1037,7 @@ const allAugments = {
       prereqs: '',
       price: '$165.000m',
       reputation: '1.250k rep',
-      effects: '+3% Bladeburner success chance, +5% dexterity skill',
+      effects: '+5% dexterity skill, +3% Bladeburner Contracts and Operations success chance',
       description: 'Ballistic-grade protective and retractable eyewear that was designed specifically for Bladeburner units. This is implanted by installing a mechanical frame in the skull\'s orbit. This frame interfaces with the brain and allows the user to automatically extrude and extract the eyewear. The eyewear protects against debris, shrapnel, lasers, blinding flashes, and gas. It is also embedded with a data processing chip that can be programmed to display an AR HUD to assist the user in field missions.',
     },
     {
@@ -1047,7 +1047,7 @@ const allAugments = {
       prereqs: '',
       price: '$275.000m',
       reputation: '2.500k rep',
-      effects: '+3% Bladeburner success chance, +5% analysis effectiveness, +2% stamina gain',
+      effects: '+2% Bladeburner stamina gain, +5% Bladeburner Field Analysis effectiveness, +3% Bladeburner Contracts and Operations success chance',
       description: 'A DNA recombination of the EMS-4 Gene. This genetic engineering technique was originally used on Bladeburners during the Synthoid uprising to induce wakefulness and concentration, suppress fear, reduce empathy, improve reflexes, and improve memory among other things.',
     },
     {
@@ -1057,7 +1057,7 @@ const allAugments = {
       prereqs: '',
       price: '$550.000m',
       reputation: '6.250k rep',
-      effects: '+4% Bladeburner success chance, +5% defense skill, +5% strength skill, +5% dexterity skill',
+      effects: '+5% strength skill, +5% defense skill, +5% dexterity skill, +4% Bladeburner Contracts and Operations success chance',
       description: 'A bionic shoulder augmentation for the right shoulder. Using cybernetics, the ORION-MKIV shoulder enhances the strength and dexterity of the user\'s right arm. It also provides protection due to its crystallized graphene plating.',
     },
     {
@@ -1067,7 +1067,7 @@ const allAugments = {
       prereqs: '',
       price: '$2.750b',
       reputation: '12.500k rep',
-      effects: '+6% Bladeburner success chance',
+      effects: '+6% Bladeburner Contracts and Operations success chance',
       description: 'A pair of mini plasma cannons embedded into the hands. The Hyperion is capable of rapidly firing bolts of high-density plasma. The weapon is meant to be used against augmented enemies as the ionized nature of the plasma disrupts the electrical systems of Augmentations. However, it can also be effective against non-augmented enemies due to its high temperature and concussive force.',
     },
     {
@@ -1077,7 +1077,7 @@ const allAugments = {
       prereqs: '<a data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Hyperion Plasma Cannon V1"><i class="bi bi-info"></i></a>',
       price: '$5.250b',
       reputation: '25.000k rep',
-      effects: '+8% Bladeburner success chance',
+      effects: '+8% Bladeburner Contracts and Operations success chance',
       description: 'A pair of mini plasma cannons embedded into the hands. This augmentation is more advanced and powerful than the original V1 model. This V2 model is more power-efficient, more accurate, and can fire plasma bolts at a much higher velocity than the V1 model.',
     },
     {
@@ -1197,7 +1197,7 @@ const allAugments = {
       prereqs: '',
       price: '$150.000b',
       reputation: '1.250k rep',
-      effects: 'This augmentation allows you to perform Bladeburner actions and other actions(such as working, committing crimes, etc.) at the same time.',
+      effects: 'This augmentation allows you to perform Bladeburner actions and other actions (such as working, committing crimes, etc.) at the same time.',
       description: 'A highly-advanced matter phase-shifter module that is embedded in the brainstem and cerebellum. This augmentation allows the user to project and control a holographic simulacrum within an extremely large radius. These specially-modified holograms were specifically weaponized by Bladeburner units to be used against Synthoids.',
     },
     {
