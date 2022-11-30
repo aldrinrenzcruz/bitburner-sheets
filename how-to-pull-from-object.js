@@ -37,6 +37,14 @@ export async function main(ns) {
 	// 	}
 	// }
 
+
+	// for (const item of allFactions.list) {
+	// 	ns.tprint(item.faction);
+	// 	ns.tprint(item.type);
+	// 	ns.tprint(item.work);
+	// 	ns.tprint('-----------------------------------');
+	// }
+
 }
 
 
