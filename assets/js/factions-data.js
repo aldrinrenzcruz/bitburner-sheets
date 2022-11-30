@@ -288,6 +288,24 @@ const allFactions = {
       work: 'Hacking Contracts, Field Work, Security Work',
       description: 'Simply put, our mission is to design and build robots that make a difference.',
     },
+    {
+      faction: 'Bladeburners',
+      ID: '33',
+      type: 'Special',
+      requirements: '',
+      augmentations: '',
+      work: 'Contracts, Ops',
+      description: 'Many cultures predict an end to humanity in the near future, a final Armageddon that will end the world; but we disagree.',
+    },
+    {
+      faction: 'Church of the Machine God',
+      ID: '34',
+      type: 'Special',
+      requirements: '',
+      augmentations: '',
+      work: 'Charging the Gift',
+      description: 'It\'s too bad they won\'t live. But then again, who does?',
+    },
   ]
 };
 

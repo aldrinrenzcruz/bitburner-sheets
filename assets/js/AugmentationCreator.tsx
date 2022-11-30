@@ -268,7 +268,7 @@ export const initGeneralAugmentations = (): Augmentation[] => [
     info:
       "This upgraded version of the 'Augmented Targeting' implant is capable of augmenting " +
       "reality by digitally displaying weaknesses and vital signs of threats.",
-    prereqs: [AugmentationNames.Targeting1],
+    prereqs: [AugmentationNames.Targeting1], 
     dexterity: 1.2,
     factions: [
       FactionNames.TheDarkArmy,
