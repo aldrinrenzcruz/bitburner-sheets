@@ -290,6 +290,7 @@ const allFactions = {
     },
   ]
 };
+
 const factionListTemplate = ({
   faction,
   type,

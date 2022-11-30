@@ -45,6 +45,12 @@ export async function main(ns) {
 	// 	ns.tprint('-----------------------------------');
 	// }
 
+	// for (const item of allFactions.list) {
+	// 	console.log(item.faction);
+	// 	console.log(item.type);
+	// 	console.log(item.work);
+	// 	console.log('-----------------------------------');
+	// }
 }
 
 
