@@ -292,7 +292,7 @@ const allFactions = {
       faction: 'Bladeburners',
       ID: '33',
       type: 'Special',
-      requirements: 'BN6, Apply to NSA Bladerunners Division',
+      requirements: 'BN6, Apply to NSA\'s Bladeburner Division',
       augmentations: '',
       work: 'Contracts, Ops',
       description: 'Many cultures predict an end to humanity in the near future, a final Armageddon that will end the world; but we disagree.',
