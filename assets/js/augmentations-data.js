@@ -1075,7 +1075,7 @@ const allAugments = {
       ID: '108',
       source: 'Bladeburners',
       prereqs: '<a data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Hyperion Plasma Cannon V1"><i class="bi bi-info"></i></a>',
-      price: '$5.250b',
+      price: '$5.500b',
       reputation: '25.000k rep',
       effects: '+8% Bladeburner Contracts and Operations success chance',
       description: 'A pair of mini plasma cannons embedded into the hands. This augmentation is more advanced and powerful than the original V1 model. This V2 model is more power-efficient, more accurate, and can fire plasma bolts at a much higher velocity than the V1 model.',
@@ -1087,7 +1087,7 @@ const allAugments = {
       prereqs: '',
       price: '$11.000b',
       reputation: '31.250k rep',
-      effects: '',
+      effects: '+7% combat skills, +5% Bladeburner Stamina gain',
       description: 'A serum that permanently enhances many aspects of human capabilities, including strength, speed, immune system enhancements, and mitochondrial efficiency. The serum was originally developed by the Chinese military in an attempt to create super soldiers.',
     },
     {
@@ -1097,7 +1097,7 @@ const allAugments = {
       prereqs: '',
       price: '$2.750b',
       reputation: '18.750k rep',
-      effects: '',
+      effects: '+10% dexterity exp, +10% Bladeburner Field Analysis effectiveness, +4% Bladeburner Contracts and Operations success chance',
       description: 'A synthetic symbiotic virus that is injected into human brain tissue. The Vangelis virus heightens the senses and focus of its host, and also enhances its intuition.',
     },
     {
@@ -1107,7 +1107,7 @@ const allAugments = {
       prereqs: '<a data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Vangelis Virus"><i class="bi bi-info"></i></a>',
       price: '$11.000b',
       reputation: '37.500k rep',
-      effects: '',
+      effects: '+10% dexterity exp, +10% dexterity exp, +15% Bladeburner Field Analysis effectiveness, +5% Bladeburner Contracts and Operations success chance',
       description: 'An improved version of Vangelis, a synthetic symbiotic virus that is injected into human brain tissue. On top of the benefits of the original virus, this also grants accelerated healing and enhanced reflexes.',
     },
     {
@@ -1117,7 +1117,7 @@ const allAugments = {
       prereqs: '',
       price: '$5.500b',
       reputation: '25.000k rep',
-      effects: '',
+      effects: '+5% combat exp, +10% Bladeburner Max Stamina',
       description: 'The DNA is genetically modified to enhance the human\'s body extracellular matrix (ECM). This improves the ECM\'s ability to structurally support the body and grants heightened strength and durability.',
     },
     {
@@ -1127,7 +1127,7 @@ const allAugments = {
       prereqs: '',
       price: '$8.250b',
       reputation: '20.000k rep',
-      effects: '',
+      effects: '+5% agility skill, +5% Bladeburner Max Stamina, +5% Bladeburner Stamina gain',
       description: 'A cybernetic foot augmentation that was specifically created for Bladeburners during the Synthoid Uprising. The organic musculature of the human foot is enhanced with flexible carbon nanotube matrices that are controlled by intelligent servo-motors.',
     },
     {
@@ -1137,7 +1137,7 @@ const allAugments = {
       prereqs: '',
       price: '$1.375b',
       reputation: '12.500k rep',
-      effects: '',
+      effects: '+4% combat skills, +2% Bladeburner Stamina gain, +3% Bladeburner Contracts and Operations success chance',
       description: 'A powered exoskeleton suit designed as armor for Bladeburners units. This exoskeleton is incredibly adaptable and can protect the wearer from blunt, piercing, concussive, thermal, chemical, and electric trauma. It also enhances the user\'s physical abilities.',
     },
     {
@@ -1147,7 +1147,7 @@ const allAugments = {
       prereqs: '<a data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="BLADE-51b Tesla Armor"><i class="bi bi-info"></i></a>',
       price: '$2.750b',
       reputation: '18.750k rep',
-      effects: '',
+      effects: '+5% Bladeburner Max Stamina, +2% Bladeburner Stamina gain, +5% Bladeburner Contracts and Operations success chance',
       description: 'Upgrades the BLADE-51b Tesla Armor with Ion Power Cells, which are capable of more efficiently storing and using power.',
     },
     {
@@ -1157,7 +1157,7 @@ const allAugments = {
       prereqs: '<a data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="BLADE-51b Tesla Armor"><i class="bi bi-info"></i></a>',
       price: '$5.500b',
       reputation: '21.250k rep',
-      effects: '',
+      effects: '+5% defense skill, +6% Bladeburner Contracts and Operations success chance',
       description: 'Upgrades the BLADE-51b Tesla Armor with a plasma energy propulsion system that is capable of projecting an energy shielding force field.',
     },
     {
@@ -1167,7 +1167,7 @@ const allAugments = {
       prereqs: '<a data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="BLADE-51b Tesla Armor"><i class="bi bi-info"></i></a>',
       price: '$16.500b',
       reputation: '31.250k rep',
-      effects: '',
+      effects: '+8% Bladeburner Contracts and Operations success chance',
       description: 'Upgrades the BLADE-51b Tesla Armor with a concentrated deuterium-fluoride laser weapon. It\'s precision and accuracy makes it useful for quickly neutralizing threats while keeping casualties to a minimum.',
     },
     {
@@ -1177,7 +1177,7 @@ const allAugments = {
       prereqs: '<a data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="BLADE-51b Tesla Armor: Unibeam Upgrade"><i class="bi bi-info"></i></a>',
       price: '$27.500b',
       reputation: '62.500k rep',
-      effects: '',
+      effects: '+10% Bladeburner Contracts and Operations success chance',
       description: 'Upgrades the BLADE-51b Tesla Armor Unibeam augmentation to use a multiple-fiber system. This upgraded weapon uses multiple fiber laser modules that combine together to form a single, more powerful beam of up to 2000MW.',
     },
     {
@@ -1187,7 +1187,7 @@ const allAugments = {
       prereqs: '<a data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="BLADE-51b Tesla Armor"><i class="bi bi-info"></i></a>',
       price: '$1.100b',
       reputation: '15.000k rep',
-      effects: '',
+      effects: '+15% Bladeburner Field Analysis effectiveness, +2% Bladeburner Contracts and Operations success chance',
       description: 'Upgrades the BLADE-51b Tesla Armor with an AI Information Processing Unit that was specially designed to analyze Synthoid related data and information.',
     },
     {
