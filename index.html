@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="externals/icons/bootstrap/bootstrap-icons.css">
   <script src="assets/js/jquery-3.6.1.min.js"></script>
-  <link rel="shortcut icon" href="externals/imgs/code.png">
+  <link rel="shortcut icon" href="assets/imgs/code.png">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap">
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-S459CE0HC0"></script>
@@ -32,7 +32,7 @@
     <div class="row">
       <main class="col-lg-12 col-md-12">
         <div class="d-flex justify-content-between pt-3">
-          <h5 class="fw-bold no-highlight">bitburner-sheets</h5>
+          <h5 class="fw-bold">bitburner-sheets</h5>
           <div class="btn-toolbar mb-2 mb-md-0">
             <div class="btn-group me-2" role="tablist">
               <button class="btn btn-sm btn-outline-dark rounded-0 active" data-bs-toggle="pill" data-bs-target="#pills-factions" type="button" accesskey="1">Factions</button>
@@ -47,13 +47,13 @@
         <hr>
         <section class="tab-content">
           <div class="tab-pane show active" id="pills-factions">
-            <input class="form-control my-3 rounded-0 no-highlight shadow" id="faction-cards-filter" placeholder="Search/Filter..." type="text">
+            <input class="form-control my-3 rounded-0 no-highlight shadow" id="faction-cards-filter" placeholder="Search/Filter..." type="text" accesskey="q">
             <div id="filterable-faction-card">
               <span id="all-factions-data"></span>
             </div>
           </div>
           <div class="tab-pane" id="pills-augments">
-            <input class="form-control my-3 rounded-0 no-highlight shadow" id="augment-cards-filter" placeholder="Search/Filter..." type="text">
+            <input class="form-control my-3 rounded-0 no-highlight shadow" id="augment-cards-filter" placeholder="Search/Filter..." type="text" accesskey="w">
             <div id="filterable-augment-card">
               <span id="all-augments-data"></span>
             </div>
