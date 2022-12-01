@@ -293,7 +293,7 @@ const allFactions = {
       ID: '33',
       type: 'Special',
       requirements: 'BN6, Join NSA\'s Bladeburner Division, Be Rank 25',
-      augmentations: '',
+      augmentations: 'EsperTech Bladeburner Eyewear The Blade\'s Simulacrum EMS-4 Recombination ORION-MKIV Shoulder Hyperion Plasma Cannon V1 BLADE-51b Tesla Armor BLADE-51b Tesla Armor: IPU Upgrade Vangelis Virus BLADE-51b Tesla Armor: Power Cells Upgrade Blade\'s Runners BLADE-51b Tesla Armor: Energy Shielding Upgrade Hyperion Plasma Cannon V2 I.N.T.E.R.L.I.N.K.E.D GOLEM Serum BLADE-51b Tesla Armor: Unibeam Upgrade Vangelis Virus 3.0 BLADE-51b Tesla Armor: Omnibeam Upgrade',
       work: 'Contracts, Ops',
       description: 'Many cultures predict an end to humanity in the near future, a final Armageddon that will end the world; but we disagree.',
     },
