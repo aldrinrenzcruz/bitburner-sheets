@@ -61,3 +61,13 @@ Your mission is to eradicate Juggernaut and his followers.
 Required Rank: 20,000
 
 -------------------------------------------------------------
+
+8. Operation Red Dragon - Retirement
+
+The Tetrads criminal organization is suspected of reverse-engineering the MK-VI Synthoid design. We believe they altered and possibly improved the design and began manufacturing their own Synthoid models in order to bolster their criminal activities.
+
+Your task is to infiltrate and destroy the Tetrads' base of operations in Los Angeles. Intelligence tells us that their base houses one of their Synthoid manufacturing units.
+
+Required Rank: 25,000
+
+-------------------------------------------------------------

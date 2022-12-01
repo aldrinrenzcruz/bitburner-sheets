@@ -13,7 +13,7 @@ const allAugments = {
     {
       augment: 'ADR-V2 Pheromone Gene',
       ID: '2',
-      source: 'Bachman & Associates, Bachman & Associates',
+      source: 'Bachman & Associates, Clarke Incorporated, Four Sigma, Silhouette',
       prereqs: '',
       price: '$550.000m',
       reputation: '62.500k rep',
