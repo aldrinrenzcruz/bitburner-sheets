@@ -593,7 +593,7 @@ const allAugments = {
     {
       augment: 'NeuroFlux Governor',
       ID: '60',
-      source: 'All Factions except SoA',
+      source: 'All Factions except SoA, Bladeburners',
       prereqs: '',
       price: '$750.000k',
       reputation: '500.000 rep',
