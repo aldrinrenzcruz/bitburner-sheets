@@ -31,3 +31,33 @@ Your goal is to enter and destroy the Bioengineering department's facility in Ae
 Required Rank: 10,000
 
 -------------------------------------------------------------
+
+5. Operation Ares - Retirement
+
+One of our undercover agents, Agent Carter, has informed us of a massive weapons deal going down in Dubai between rogue Russian militants and a radical Synthoid community. These weapons are next-gen plasma and energy weapons. It is critical for the safety of humanity that this deal does not happen.
+
+Your task is to intercept the deal. Leave no survivors.
+
+Required Rank: 12,500
+
+-------------------------------------------------------------
+
+6. Operation Archangel - Retirement
+
+Our analysts have discovered that the popular Red Rabbit brothel in Amsterdam is run and 'staffed' by MK-VI Synthoids. Intelligence suggests that the profit from this brothel is used to fund a large black market arms trafficking operation.
+
+The goal of this operation is to take out the leaders that are running the Red Rabbit brothel. Try to limit the number of other casualties, but do what you must to complete the mission.
+
+Required Rank: 15,000
+
+-------------------------------------------------------------
+
+7. Operation Juggernaut
+
+The CIA has just encountered a new security threat. A new criminal group, lead by a shadowy operative who calls himself Juggernaut, has been smuggling drugs and weapons (including suspected bioweapons) into Sector-12. We also have reason to believe they tried to break into one of Universal Energy's facilities in order to cause a city-wide blackout. The CIA suspects that Juggernaut is a heavily-augmented Synthoid, and have thus enlisted our help.
+
+Your mission is to eradicate Juggernaut and his followers.
+
+Required Rank: 20,000
+
+-------------------------------------------------------------
