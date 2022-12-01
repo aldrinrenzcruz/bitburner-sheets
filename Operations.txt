@@ -71,3 +71,33 @@ Your task is to infiltrate and destroy the Tetrads' base of operations in Los An
 Required Rank: 25,000
 
 -------------------------------------------------------------
+
+9. Operation K - Retirement
+
+CODE RED SITUATION. Our intelligence tells us that VitaLife has discovered a new android cloning technology. This technology is supposedly capable of cloning Synthoids, not only physically but also their advanced AI modules. We do not believe that VitaLife is trying to use this technology illegally or maliciously, but if any Synthoids were able to infiltrate the corporation and take advantage of this technology then the results would be catastrophic.
+
+We do not have the power or jurisdiction to shut this down through legal or political means, so we must resort to a covert operation. Your goal is to destroy this technology and eliminate anyone who was involved in its creation.
+
+Required Rank: 30,000
+
+-------------------------------------------------------------
+
+10. Operation Deckard - Retirement
+
+Despite your success in eliminating VitaLife's new android-replicating technology in Operation K, we've discovered that a small group of MK-VI Synthoids were able to make off with the schematics and design of the technology before the Operation. It is almost a certainty that these Synthoids are some of the rogue MK-VI ones from the Synthoid Uprising.
+
+The goal of Operation Deckard is to hunt down these Synthoids and retire them. I don't need to tell you how critical this mission is.
+
+Required Rank: 40,000
+
+-------------------------------------------------------------
+
+11. Operation Tyrell - Retirement
+
+A week ago Blade Industries reported a small break-in at one of their Aevum Augmentation storage facilities. We figured out that The Dark Army was behind the heist, and didn't think any more of it. However, we've just discovered that several known MK-VI Synthoids were part of that break-in group.
+
+We cannot have Synthoids upgrading their already-enhanced abilities with Augmentations. Your task is to hunt down associated The Dark Army members and eliminate them.
+
+Required Rank: 50,000
+
+-------------------------------------------------------------
