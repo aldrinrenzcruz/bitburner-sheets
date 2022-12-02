@@ -37,31 +37,40 @@
             <div class="btn-group me-2" role="tablist">
               <button class="btn btn-sm btn-outline-dark rounded-0 active" data-bs-toggle="pill" data-bs-target="#pills-factions" type="button" accesskey="1">Factions</button>
               <button class="btn btn-sm btn-outline-dark rounded-0" data-bs-toggle="pill" data-bs-target="#pills-augments" type="button" accesskey="2">Augments</button>
-              <button class="btn btn-sm btn-outline-dark rounded-0" data-bs-toggle="pill" data-bs-target="#pills-augments" type="button">Checklists</button>
-              <button class="btn btn-sm btn-outline-dark rounded-0" data-bs-toggle="pill" data-bs-target="#pills-augments" type="button">Functions</button>
+              <button class="btn btn-sm btn-outline-dark rounded-0" data-bs-toggle="pill" data-bs-target="#pills-locations" type="button">Locations</button>
+              <!-- <button class="btn btn-sm btn-outline-dark rounded-0" data-bs-toggle="pill" data-bs-target="#pills-augments" type="button">Functions</button> -->
             </div>
             <button class="btn btn-sm btn-outline-secondary rounded-0 ms-2" type="button"><i class="bi bi-info"></i></button>
             <button class="btn btn-sm btn-danger rounded-0 ms-2" onclick="clearFactionChecklist();" type="button">Reset</button>
           </div>
         </div>
         <hr>
-        <section class="tab-content">
-          <div class="tab-pane show active" id="pills-factions">
+
+        <main class="tab-content">
+          <section class="tab-pane show active" id="pills-factions">
             <input class="form-control my-3 rounded-0 no-highlight shadow" id="faction-cards-filter" placeholder="Search/Filter..." type="text" accesskey="q">
             <div id="filterable-faction-card">
               <span id="all-factions-data"></span>
             </div>
-          </div>
-          <div class="tab-pane" id="pills-augments">
+          </section>
+          <section class="tab-pane" id="pills-augments">
             <input class="form-control my-3 rounded-0 no-highlight shadow" id="augment-cards-filter" placeholder="Search/Filter..." type="text" accesskey="w">
             <div id="filterable-augment-card">
               <span id="all-augments-data"></span>
             </div>
-          </div>
-        </section>
-        <section class="my-2 text-center">
+          </section>
+          <section class="tab-pane" id="pills-locations">
+            <input class="form-control my-3 rounded-0 no-highlight shadow" id="location-cards-filter" placeholder="Search/Filter..." type="text">
+            <div id="filterable-location-card">
+              <span id="all-locations-data"></span>
+              TODO
+            </div>
+          </section>
+        </main>
+
+        <div class="my-2 text-center">
           <span><small>By <a href="https://github.com/ixwrites" target="_blank">Ivma</a>, Updated as of v2.1.0</small></span>
-        </section>
+        </div>
       </main>
     </div>
   </div>
