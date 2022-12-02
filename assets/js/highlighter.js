@@ -38,6 +38,8 @@ function masterHighlighter() {
   const nwo = localStorage.getItem("faction-checkbox-31");
   const omnitek_incorporated = localStorage.getItem("faction-checkbox-32");
 
+  const bladeburners = localStorage.getItem("faction-checkbox-33");
+
   // Augmentations
 
   // const adr_v1_pheromone_gene = localStorage.getItem("augment-checkbox-1");
@@ -186,36 +188,33 @@ function masterHighlighter() {
   }
 
   if (bitrunners == "true") {
-    localStorage.setItem("augment-checkbox-60", "true");
-
-    localStorage.setItem("augment-checkbox-25", "true");
-    localStorage.setItem("augment-checkbox-22", "true");
-    localStorage.setItem("augment-checkbox-34", "true");
-    localStorage.setItem("augment-checkbox-56", "true");
-    localStorage.setItem("augment-checkbox-23", "true");
-    localStorage.setItem("augment-checkbox-30", "true");
     localStorage.setItem("augment-checkbox-3", "true");
     localStorage.setItem("augment-checkbox-11", "true");
-    localStorage.setItem("augment-checkbox-31", "true");
-    localStorage.setItem("augment-checkbox-64", "true");
-    localStorage.setItem("augment-checkbox-28", "true");
     localStorage.setItem("augment-checkbox-21", "true");
-
+    localStorage.setItem("augment-checkbox-22", "true");
+    localStorage.setItem("augment-checkbox-23", "true");
+    localStorage.setItem("augment-checkbox-25", "true");
+    localStorage.setItem("augment-checkbox-28", "true");
+    localStorage.setItem("augment-checkbox-30", "true");
+    localStorage.setItem("augment-checkbox-31", "true");
+    localStorage.setItem("augment-checkbox-34", "true");
+    localStorage.setItem("augment-checkbox-56", "true");
+    localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-64", "true");
   }
 
   if (nitesec == "true") {
-    localStorage.setItem("augment-checkbox-60", "true");
-    localStorage.setItem("augment-checkbox-25", "true");
-    localStorage.setItem("augment-checkbox-12", "true");
-    localStorage.setItem("augment-checkbox-64", "true");
-    localStorage.setItem("augment-checkbox-19", "true");
     localStorage.setItem("augment-checkbox-4", "true");
+    localStorage.setItem("augment-checkbox-12", "true");
+    localStorage.setItem("augment-checkbox-19", "true");
     localStorage.setItem("augment-checkbox-20", "true");
-    localStorage.setItem("augment-checkbox-24", "true");
-    localStorage.setItem("augment-checkbox-57", "true");
-    localStorage.setItem("augment-checkbox-28", "true");
     localStorage.setItem("augment-checkbox-21", "true");
-
+    localStorage.setItem("augment-checkbox-24", "true");
+    localStorage.setItem("augment-checkbox-25", "true");
+    localStorage.setItem("augment-checkbox-28", "true");
+    localStorage.setItem("augment-checkbox-60", "true");
+    localStorage.setItem("augment-checkbox-57", "true");
+    localStorage.setItem("augment-checkbox-64", "true");
   }
 
   if (the_black_hand == "true") {
@@ -229,7 +228,6 @@ function masterHighlighter() {
     localStorage.setItem("augment-checkbox-4", "true");
     localStorage.setItem("augment-checkbox-28", "true");
     localStorage.setItem("augment-checkbox-21", "true");
-
   }
 
   if (aevum == "true") {
@@ -240,7 +238,6 @@ function masterHighlighter() {
     localStorage.setItem("augment-checkbox-63", "true");
     localStorage.setItem("augment-checkbox-92", "true");
     localStorage.setItem("augment-checkbox-90", "true");
-
   }
 
   if (chongqing == "true") {
@@ -250,7 +247,6 @@ function masterHighlighter() {
     localStorage.setItem("augment-checkbox-90", "true");
     localStorage.setItem("augment-checkbox-58", "true");
     localStorage.setItem("augment-checkbox-25", "true");
-
   }
 
   if (ishima == "true") {
@@ -261,7 +257,6 @@ function masterHighlighter() {
     localStorage.setItem("augment-checkbox-15", "true");
     localStorage.setItem("augment-checkbox-90", "true");
     localStorage.setItem("augment-checkbox-58", "true");
-
   }
 
   if (new_tokyo == "true") {
@@ -271,7 +266,6 @@ function masterHighlighter() {
     localStorage.setItem("augment-checkbox-90", "true");
     localStorage.setItem("augment-checkbox-58", "true");
     localStorage.setItem("augment-checkbox-25", "true");
-
   }
 
   if (sector_12 == "true") {
@@ -293,7 +287,6 @@ function masterHighlighter() {
     localStorage.setItem("augment-checkbox-67", "true");
     localStorage.setItem("augment-checkbox-90", "true");
     localStorage.setItem("augment-checkbox-58", "true");
-
   }
 
   if (daedalus == "true") {
@@ -316,7 +309,6 @@ function masterHighlighter() {
     localStorage.setItem("augment-checkbox-54", "true");
     localStorage.setItem("augment-checkbox-33", "true");
     localStorage.setItem("augment-checkbox-32", "true");
-
   }
 
   if (the_covenant == "true") {
@@ -331,7 +323,6 @@ function masterHighlighter() {
     localStorage.setItem("augment-checkbox-94", "true");
     localStorage.setItem("augment-checkbox-54", "true");
     localStorage.setItem("augment-checkbox-33", "true");
-
   }
 
   if (silhouette == "true") {
@@ -339,7 +330,6 @@ function masterHighlighter() {
     localStorage.setItem("augment-checkbox-98", "true");
     localStorage.setItem("augment-checkbox-90", "true");
     localStorage.setItem("augment-checkbox-2", "true");
-
   }
 
   if (slum_snakes == "true") {
@@ -350,7 +340,6 @@ function masterHighlighter() {
     localStorage.setItem("augment-checkbox-51", "true");
     localStorage.setItem("augment-checkbox-5", "true");
     localStorage.setItem("augment-checkbox-15", "true");
-
   }
 
   if (speakers_for_the_dead == "true") {
@@ -365,7 +354,6 @@ function masterHighlighter() {
     localStorage.setItem("augment-checkbox-97", "true");
     localStorage.setItem("augment-checkbox-10", "true");
     localStorage.setItem("augment-checkbox-9", "true");
-
   }
 
   if (tetrads == "true") {
@@ -375,7 +363,6 @@ function masterHighlighter() {
     localStorage.setItem("augment-checkbox-75", "true");
     localStorage.setItem("augment-checkbox-8", "true");
     localStorage.setItem("augment-checkbox-51", "true");
-
   }
 
   if (the_dark_army == "true") {
@@ -392,7 +379,6 @@ function masterHighlighter() {
     localStorage.setItem("augment-checkbox-17", "true");
     localStorage.setItem("augment-checkbox-53", "true");
     localStorage.setItem("augment-checkbox-97", "true");
-
   }
 
   if (the_syndicate == "true") {
@@ -413,7 +399,6 @@ function masterHighlighter() {
     localStorage.setItem("augment-checkbox-6", "true");
     localStorage.setItem("augment-checkbox-16", "true");
     localStorage.setItem("augment-checkbox-53", "true");
-
   }
 
   if (bachman_and_associates == "true") {
@@ -425,7 +410,6 @@ function masterHighlighter() {
     localStorage.setItem("augment-checkbox-89", "true");
     localStorage.setItem("augment-checkbox-67", "true");
     localStorage.setItem("augment-checkbox-58", "true");
-
   }
 
   if (blade_industries == "true") {
@@ -447,7 +431,6 @@ function masterHighlighter() {
     localStorage.setItem("augment-checkbox-93", "true");
     localStorage.setItem("augment-checkbox-72", "true");
     localStorage.setItem("augment-checkbox-31", "true");
-
   }
 
   if (clarke_incorporated == "true") {
@@ -460,7 +443,6 @@ function masterHighlighter() {
     localStorage.setItem("augment-checkbox-2", "true");
     localStorage.setItem("augment-checkbox-36", "true");
     localStorage.setItem("augment-checkbox-35", "true");
-
   }
 
   if (ecorp == "true") {
@@ -476,7 +458,6 @@ function masterHighlighter() {
     localStorage.setItem("augment-checkbox-31", "true");
     localStorage.setItem("augment-checkbox-33", "true");
     localStorage.setItem("augment-checkbox-32", "true");
-
   }
 
   if (four_sigma == "true") {
@@ -490,7 +471,6 @@ function masterHighlighter() {
     localStorage.setItem("augment-checkbox-36", "true");
     localStorage.setItem("augment-checkbox-35", "true");
     localStorage.setItem("augment-checkbox-70", "true");
-
   }
 
   if (fulcrum_secret_technologies == "true") {
@@ -512,7 +492,6 @@ function masterHighlighter() {
     localStorage.setItem("augment-checkbox-33", "true");
     localStorage.setItem("augment-checkbox-39", "true");
     localStorage.setItem("augment-checkbox-32", "true");
-
   }
 
   if (kuaigong_international == "true") {
@@ -532,7 +511,6 @@ function masterHighlighter() {
     localStorage.setItem("augment-checkbox-93", "true");
     localStorage.setItem("augment-checkbox-94", "true");
     localStorage.setItem("augment-checkbox-31", "true");
-
   }
 
   if (megacorp == "true") {
@@ -546,7 +524,6 @@ function masterHighlighter() {
     localStorage.setItem("augment-checkbox-31", "true");
     localStorage.setItem("augment-checkbox-33", "true");
     localStorage.setItem("augment-checkbox-32", "true");
-
   }
 
   if (nwo == "true") {
@@ -565,7 +542,6 @@ function masterHighlighter() {
     localStorage.setItem("augment-checkbox-31", "true");
     localStorage.setItem("augment-checkbox-33", "true");
     localStorage.setItem("augment-checkbox-32", "true");
-
   }
 
   if (omnitek_incorporated == "true") {
@@ -583,7 +559,26 @@ function masterHighlighter() {
     localStorage.setItem("augment-checkbox-35", "true");
     localStorage.setItem("augment-checkbox-70", "true");
     localStorage.setItem("augment-checkbox-31", "true");
+  }
 
+  if (bladeburners == "true") {
+    localStorage.setItem("augment-checkbox-104", "true");
+    localStorage.setItem("augment-checkbox-105", "true");
+    localStorage.setItem("augment-checkbox-106", "true");
+    localStorage.setItem("augment-checkbox-107", "true");
+    localStorage.setItem("augment-checkbox-108", "true");
+    localStorage.setItem("augment-checkbox-109", "true");
+    localStorage.setItem("augment-checkbox-110", "true");
+    localStorage.setItem("augment-checkbox-111", "true");
+    localStorage.setItem("augment-checkbox-112", "true");
+    localStorage.setItem("augment-checkbox-113", "true");
+    localStorage.setItem("augment-checkbox-114", "true");
+    localStorage.setItem("augment-checkbox-115", "true");
+    localStorage.setItem("augment-checkbox-116", "true");
+    localStorage.setItem("augment-checkbox-117", "true");
+    localStorage.setItem("augment-checkbox-118", "true");
+    localStorage.setItem("augment-checkbox-119", "true");
+    localStorage.setItem("augment-checkbox-120", "true");
   }
 
 }
