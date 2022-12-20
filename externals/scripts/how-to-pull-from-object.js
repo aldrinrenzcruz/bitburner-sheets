@@ -51,6 +51,14 @@ export async function main(ns) {
 	// 	console.log(item.work);
 	// 	console.log('-----------------------------------');
 	// }
+
+	allFactions.list.sort(function (a, b) {
+		return Number(a.rank) - Number(b.rank);
+	});
+
+	for (const item of allFactions.list) {
+		ns.print(`${item.rank}. ${item.faction}`);
+	}
 }
 
 
